@@ -1,0 +1,68 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=main.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=Various C++ Examples (including IPC)
+
+[WINDOWS]
+main="Various C++ Examples (including IPC)","index.hhc","index.hhk","main.html","main.html",,,,,0x23520,,0x387e,,,,,,,,0
+
+[FILES]
+main.html
+files.html
+config_8h-source.html
+doxygen__msg_8cc-source.html
+iteration_8cc-source.html
+overload_8cc-source.html
+simpleTemplate_8cc-source.html
+streambuf_8cc-source.html
+threadDeath1_8cc-source.html
+threadDeath2_8cc-source.html
+threadDeath3_8cc-source.html
+virtuals_8cc-source.html
+config_8h.html
+doxygen__msg_8cc.html
+iteration_8cc.html
+overload_8cc.html
+simpleTemplate_8cc.html
+streambuf_8cc.html
+threadDeath1_8cc.html
+threadDeath2_8cc.html
+threadDeath3_8cc.html
+virtuals_8cc.html
+annotated.html
+classes.html
+hierarchy.html
+functions.html
+functions_func.html
+functions_vars.html
+classAbstractClass.html
+classAbstractClass-members.html
+classAnotherChildClass.html
+classAnotherChildClass-members.html
+classBaseClass.html
+classBaseClass-members.html
+classChildClass.html
+classChildClass-members.html
+classdmsg.html
+classdmsg-members.html
+structfunc__params.html
+structfunc__params-members.html
+classstd_1_1streambuf.html
+classThreadMgr.html
+classThreadMgr-members.html
+structThreadMgr_1_1func__arguments.html
+structThreadMgr_1_1func__arguments-members.html
+todo.html
+namespaces.html
+namespacestd.html
+globals.html
+globals_func.html
+globals_defs.html
+pages.html
+graph_legend.html
+inherits.html

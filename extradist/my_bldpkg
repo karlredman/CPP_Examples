@@ -1,0 +1,9 @@
+#this is a convenience script
+#execute this from the project root directory
+#
+aclocal -I ./
+autoconf
+autoheader
+automake -a --include-deps
+touch NEWS README AUTHORS ChangeLog
+automake -a --include-deps

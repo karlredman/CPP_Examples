@@ -1,0 +1,12 @@
+The files in this directory are not part of the regular
+distribution. Rather they are here, most generally, for packaging and
+preperation of the distribution. 
+
+The mainpage.* files are refered to by the main.c file for doxygen in
+order that we have a somewhat standardized way of creating our main
+doxygen source documentation page. 
+
+Doxyfile is the Doxygen configuration file I used to create the source
+code documentation from.
+
+x.spec is my RPM spec file (outdated currently)

@@ -1,0 +1,213 @@
+# Makefile.in generated automatically by automake 1.4-p6 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ../..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+host_alias = @host_alias@
+host_triplet = @host@
+AR = @AR@
+AS = @AS@
+CATALOGS = @CATALOGS@
+CATOBJEXT = @CATOBJEXT@
+CC = @CC@
+CPP = @CPP@
+CXX = @CXX@
+CXXCPP = @CXXCPP@
+DATADIRNAME = @DATADIRNAME@
+DLLTOOL = @DLLTOOL@
+ECHO = @ECHO@
+EGREP = @EGREP@
+EXEEXT = @EXEEXT@
+F77 = @F77@
+GCJ = @GCJ@
+GCJFLAGS = @GCJFLAGS@
+GMOFILES = @GMOFILES@
+GMSGFMT = @GMSGFMT@
+HAVE_LIB = @HAVE_LIB@
+INSTOBJEXT = @INSTOBJEXT@
+INTLLIBS = @INTLLIBS@
+LIB = @LIB@
+LIBTOOL = @LIBTOOL@
+LN_S = @LN_S@
+LTLIB = @LTLIB@
+MAKEINFO = @MAKEINFO@
+MKINSTALLDIRS = @MKINSTALLDIRS@
+OBJDUMP = @OBJDUMP@
+OBJEXT = @OBJEXT@
+PACKAGE = @PACKAGE@
+POFILES = @POFILES@
+POSUB = @POSUB@
+PO_IN_DATADIR_FALSE = @PO_IN_DATADIR_FALSE@
+PO_IN_DATADIR_TRUE = @PO_IN_DATADIR_TRUE@
+PTHREAD_LIBS = @PTHREAD_LIBS@
+RANLIB = @RANLIB@
+RC = @RC@
+RPM_ARGS = @RPM_ARGS@
+RPM_CONFIGURE_ARGS = @RPM_CONFIGURE_ARGS@
+RPM_DIR = @RPM_DIR@
+RPM_PROG = @RPM_PROG@
+RPM_RELEASE = @RPM_RELEASE@
+RPM_TARBALL = @RPM_TARBALL@
+RPM_TARGET = @RPM_TARGET@
+STRIP = @STRIP@
+USE_NLS = @USE_NLS@
+VERSION = @VERSION@
+
+EXTRA_DIST = annotated.html classAbstractClass-members.html classAbstractClass.html classAbstractClass__inherit__graph.map classAbstractClass__inherit__graph.md5 classAbstractClass__inherit__graph.png classAnotherChildClass-members.html classAnotherChildClass.html classAnotherChildClass__coll__graph.map classAnotherChildClass__coll__graph.md5 classAnotherChildClass__coll__graph.png classAnotherChildClass__inherit__graph.map classAnotherChildClass__inherit__graph.md5 classAnotherChildClass__inherit__graph.png classBaseClass-members.html classBaseClass.html classBaseClass__coll__graph.map classBaseClass__coll__graph.md5 classBaseClass__coll__graph.png classBaseClass__inherit__graph.map classBaseClass__inherit__graph.md5 classBaseClass__inherit__graph.png classChildClass-members.html classChildClass.html classChildClass__coll__graph.map classChildClass__coll__graph.md5 classChildClass__coll__graph.png classChildClass__inherit__graph.map classChildClass__inherit__graph.md5 classChildClass__inherit__graph.png classThreadMgr-members.html classThreadMgr.html classThreadMgr__coll__graph.map classThreadMgr__coll__graph.md5 classThreadMgr__coll__graph.png classThreadMgr_a2_cgraph.map classThreadMgr_a2_cgraph.md5 classThreadMgr_a2_cgraph.png classThreadMgr_a3_cgraph.map classThreadMgr_a3_cgraph.md5 classThreadMgr_a3_cgraph.png classThreadMgr_f0_cgraph.map classThreadMgr_f0_cgraph.md5 classThreadMgr_f0_cgraph.png classdmsg-members.html classdmsg.html classdmsg__coll__graph.map classdmsg__coll__graph.md5 classdmsg__coll__graph.png classdmsg__inherit__graph.map classdmsg__inherit__graph.md5 classdmsg__inherit__graph.png classes.html classstd_1_1streambuf.html classstd_1_1streambuf__inherit__graph.map classstd_1_1streambuf__inherit__graph.md5 classstd_1_1streambuf__inherit__graph.png doxygen.css doxygen.png doxygen__msg_8cc-source.html doxygen__msg_8cc.html files.html ftv2blank.png ftv2doc.png ftv2folderclosed.png ftv2folderopen.png ftv2lastnode.png ftv2link.png ftv2mlastnode.png ftv2mnode.png ftv2node.png ftv2plastnode.png ftv2pnode.png ftv2vertline.png functions.html functions_func.html functions_vars.html globals.html globals_defs.html globals_func.html graph_legend.dot graph_legend.html graph_legend.png hierarchy.html index.hhc index.hhk index.hhp index.html inherit__graph__0.map inherit__graph__0.md5 inherit__graph__0.png inherit__graph__1.map inherit__graph__1.md5 inherit__graph__1.png inherit__graph__2.map inherit__graph__2.md5 inherit__graph__2.png inherit__graph__3.map inherit__graph__3.md5 inherit__graph__3.png inherit__graph__4.map inherit__graph__4.md5 inherit__graph__4.png inherits.html installdox iteration_8cc-source.html iteration_8cc.html iteration_8cc__incl.map iteration_8cc__incl.md5 iteration_8cc__incl.png main.html namespaces.html namespacestd.html overload_8cc-source.html overload_8cc.html overload_8cc__incl.map overload_8cc__incl.md5 overload_8cc__incl.png overload_8cc_a4_cgraph.map overload_8cc_a4_cgraph.md5 overload_8cc_a4_cgraph.png pages.html search.idx search.php simpleTemplate_8cc-source.html simpleTemplate_8cc.html simpleTemplate_8cc__incl.map simpleTemplate_8cc__incl.md5 simpleTemplate_8cc__incl.png streambuf_8cc-source.html streambuf_8cc.html streambuf_8cc__incl.map streambuf_8cc__incl.md5 streambuf_8cc__incl.png structThreadMgr_1_1func__arguments-members.html structThreadMgr_1_1func__arguments.html structThreadMgr_1_1func__arguments__coll__graph.map structThreadMgr_1_1func__arguments__coll__graph.md5 structThreadMgr_1_1func__arguments__coll__graph.png structfunc__params-members.html structfunc__params.html structfunc__params__coll__graph.map structfunc__params__coll__graph.md5 structfunc__params__coll__graph.png threadDeath1_8cc-source.html threadDeath1_8cc.html threadDeath1_8cc__incl.map threadDeath1_8cc__incl.md5 threadDeath1_8cc__incl.png threadDeath1_8cc_a2_cgraph.map threadDeath1_8cc_a2_cgraph.md5 threadDeath1_8cc_a2_cgraph.png threadDeath1_8cc_a3_cgraph.map threadDeath1_8cc_a3_cgraph.md5 threadDeath1_8cc_a3_cgraph.png threadDeath2_8cc-source.html threadDeath2_8cc.html threadDeath2_8cc__incl.map threadDeath2_8cc__incl.md5 threadDeath2_8cc__incl.png threadDeath2_8cc_a2_cgraph.map threadDeath2_8cc_a2_cgraph.md5 threadDeath2_8cc_a2_cgraph.png threadDeath3_8cc-source.html threadDeath3_8cc.html threadDeath3_8cc__incl.map threadDeath3_8cc__incl.md5 threadDeath3_8cc__incl.png threadDeath3_8cc_a0_cgraph.map threadDeath3_8cc_a0_cgraph.md5 threadDeath3_8cc_a0_cgraph.png threadDeath3_8cc_a5_cgraph.map threadDeath3_8cc_a5_cgraph.md5 threadDeath3_8cc_a5_cgraph.png threadDeath3_8cc_a6_cgraph.map threadDeath3_8cc_a6_cgraph.md5 threadDeath3_8cc_a6_cgraph.png todo.html tree.html virtuals_8cc-source.html virtuals_8cc.html virtuals_8cc__incl.map virtuals_8cc__incl.md5 virtuals_8cc__incl.png virtuals_8cc_a0_cgraph.map virtuals_8cc_a0_cgraph.md5 virtuals_8cc_a0_cgraph.png virtuals_8cc_a1_cgraph.map virtuals_8cc_a1_cgraph.md5 virtuals_8cc_a1_cgraph.png
+mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+CONFIG_HEADER = ../../config.h
+CONFIG_CLEAN_FILES = 
+DIST_COMMON =  Makefile.am Makefile.in
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+
+TAR = tar
+GZIP_ENV = --best
+all: all-redirect
+.SUFFIXES:
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.ac $(ACLOCAL_M4) 
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps docs/html/Makefile
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+tags: TAGS
+TAGS:
+
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = docs/html
+
+distdir: $(DISTFILES)
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  if test -d $$d/$$file; then \
+	    cp -pr $$d/$$file $(distdir)/$$file; \
+	  else \
+	    test -f $(distdir)/$$file \
+	    || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	    || cp -p $$d/$$file $(distdir)/$$file || :; \
+	  fi; \
+	done
+info-am:
+info: info-am
+dvi-am:
+dvi: dvi-am
+check-am: all-am
+check: check-am
+installcheck-am:
+installcheck: installcheck-am
+install-exec-am:
+install-exec: install-exec-am
+
+install-data-am:
+install-data: install-data-am
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-am
+uninstall-am:
+uninstall: uninstall-am
+all-am: Makefile
+all-redirect: all-am
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs:
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-generic
+
+mostlyclean: mostlyclean-am
+
+clean-am:  clean-generic mostlyclean-am
+
+clean: clean-am
+
+distclean-am:  distclean-generic clean-am
+	-rm -f libtool
+
+distclean: distclean-am
+
+maintainer-clean-am:  maintainer-clean-generic distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-am
+
+.PHONY: tags distdir info-am info dvi-am dvi check check-am \
+installcheck-am installcheck install-exec-am install-exec \
+install-data-am install-data install-am install uninstall-am uninstall \
+all-redirect all-am all installdirs mostlyclean-generic \
+distclean-generic clean-generic maintainer-clean-generic clean \
+mostlyclean distclean maintainer-clean
+
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

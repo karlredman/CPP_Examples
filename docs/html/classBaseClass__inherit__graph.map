@@ -1,0 +1,4 @@
+base referer
+rect $classAnotherChildClass.html 7,236 127,294
+rect $classChildClass.html 151,236 223,294
+rect $classAbstractClass.html 79,17 175,76

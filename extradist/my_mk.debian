@@ -1,0 +1,38 @@
+### debian package makeing
+
+### setup the environment
+export DEBFULLNAME="Karl N. Redman"
+export DEBEMAIL="parasyte@sleepingstill.com"
+
+#./extradist/my_bldpkg
+#./configure
+./autogen.sh
+make dist
+tar zxvf run-free-2.0.0.tar.gz
+
+#cd run-free-2.0.0
+#cp ../run-free-2.0.0.tar.gz .
+
+### create the initial ./debian structure
+########################dh_make --single 
+
+#########################cd ./debian
+
+## to find dependencies (from debian new maintainer's manual)
+#strace -f -o /tmp/log ./configure
+# or make instead of ./configure, if the package doesn't use autoconf
+#for x in `dpkg -S $(grep open /tmp/log|perl -pe 's!.* open\(\"([^\"]*).*!$1!' |grep "^/"| sort | uniq| grep -v "^\(/tmp\|/dev\|/proc\)" ) 2>/dev/null|cut -f1 -d":"| sort | uniq`; do echo -n "$x (>=" `dpkg -s $x|grep ^Version|cut -f2 -d":"` "), "; done
+
+## edit files
+########################vi control
+########################vi copyright
+########################rm *.ex; rm *.EX
+
+## remove unwanted files
+########################rm README.Debian
+
+##rebuild
+########################cd ..
+cp -r ../debian ./
+
+dpkg-buildpackage -rfakeroot

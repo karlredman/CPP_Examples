@@ -1,0 +1,108 @@
+# -*- Mode:rpm-spec -*-
+# myproject.spec.in
+Summary: this is the summary of myproject
+%define rel @RPM_RELEASE@
+
+%define version @VERSION@
+%define pkgname @PACKAGE@
+%define prefix /usr/bin
+
+%define lt_release @LT_RELEASE@
+%define lt_version @LT_CURRENT@.@LT_REVISION@.@LT_AGE@
+
+# This is a hack until I can figure out how to better handle replacing
+# autoconf macros... (gotta love autoconf...)
+%define __aclocal   aclocal || aclocal -I ./macros
+%define configure_args  @RPM_CONFIGURE_ARGS@
+
+Name: %{pkgname}
+Version: %{version}
+Release: %{rel}
+
+Copyright: GPL
+Group: Applications/GUI
+Source: %{pkgname}-%{version}.tar.gz
+#Requires: # additional requirements
+Buildroot: /tmp/%{pkgname}-root
+URL: http://www.sleepingstill.com/projects
+Prefix: %{prefix}
+BuildArchitectures: i386: i586: i686
+Packager: Karl N. Redman <parasyte@sleepingstill.com>
+
+%description
+GUI (gtk) GUI commandline program launcher
+
+%changelog
+
+%prep
+%setup
+#%patch
+
+%build
+%GNUconfigure %{configure_args}
+# This is why we copy the CFLAGS to the CXXFLAGS in configure.in
+# CFLAGS="%{optflags}" CXXFLAGS="%{optflags}" ./configure %{_target_platform} --prefix=%{prefix}
+make
+
+%install
+# To make things work with BUILDROOT
+if [ "$RPM_BUILD_ROOT" != "/tmp/%{pkgname}-root" ]
+then
+  echo
+  echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  echo @                                                                    @
+  echo @  RPM_BUILD_ROOT is not what I expected.  Please clean it yourself. @
+  echo @                                                                    @
+  echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  echo
+else
+  echo Cleaning RPM_BUILD_ROOT: "$RPM_BUILD_ROOT"
+  rm -rf "$RPM_BUILD_ROOT"
+fi
+make DESTDIR="$RPM_BUILD_ROOT" install
+
+%clean
+# Call me paranoid, but I do not want to be responsible for nuking
+# someone's harddrive!
+if [ "$RPM_BUILD_ROOT" != "/tmp/%{pkgname}-root" ]
+then
+  echo
+  echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  echo @                                                                    @
+  echo @  RPM_BUILD_ROOT is not what I expected.  Please clean it yourself. @
+  echo @                                                                    @
+  echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  echo
+else
+  echo Cleaning RPM_BUILD_ROOT: "$RPM_BUILD_ROOT"
+  rm -rf "$RPM_BUILD_ROOT"
+fi
+
+%files
+%defattr(-, root, root)
+# Your application file list goes here
+# %{prefix}/lib/lib*.so*
+%{prefix}/myproject
+%doc COPYING ChangeLog README AUTHORS NEWS
+#%doc docs
+
+# If you install a library
+#%post -p /sbin/ldconfig
+
+# If you install a library
+#%postun -p /sbin/ldconfig
+
+%package devel
+Summary: Development files for %{pkgname}
+Group: Applications/Databases
+%description devel
+Development files for %{pkgname}.
+
+%files devel
+%defattr(-, root, root)
+# Your development files go here
+# Programmers documentation goes here
+#%doc doc
+%doc docs
+
+# end of file
