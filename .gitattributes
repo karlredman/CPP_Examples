@@ -1,6 +1,6 @@
 static/* linguist-vendored
-project-docs/* linguist-documentation
+docs/* linguist-documentation
 *.cc linguist-language=cpp
-*.sh linguist-vendored=false
-*.am linguist-vendored=false
-*.html linguist-vendored=false
+*.sh linguist-vendored=true
+*.am linguist-vendored=true
+*.html linguist-vendored=true
