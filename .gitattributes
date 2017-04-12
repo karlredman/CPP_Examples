@@ -1,9 +1,9 @@
 static/* linguist-vendored
 docs/* linguist-documentation
-*.cc linguist-language=cpp
-*.sh linguist-vendored=true
-*.am linguist-vendored=true
-*.html linguist-vendored=true
-makefile linguist-vendored=true
-Makefile linguist-vendored=true
+#*.html linguist-vendored=true
+#*.sh linguist-vendored=true
+#*.am linguist-vendored=true
+#Makefile linguist-vendored=true
+#makefile linguist-vendored=true
 Makefile* linguist-vendored=true
+*.cc linguist-language=cpp
