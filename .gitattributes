@@ -1,1 +1,6 @@
-*.cc linguist-language=C++
+special-vendored-path/* linguist-vendored
+*.cc linguist-language=cpp
+*.sh linguist-vendored=false
+*.am linguist-vendored=false
+*.html linguist-vendored=false
+project-docs/* linguist-documentation
