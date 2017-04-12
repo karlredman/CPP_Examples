@@ -5,5 +5,5 @@ docs/* linguist-documentation
 *.sh linguist-vendored=true
 #Makefile linguist-vendored=true
 #makefile linguist-vendored=true
-#Makefile* linguist-vendored=true
+Makefile* linguist-vendored=true
 *.cc linguist-language=cpp
