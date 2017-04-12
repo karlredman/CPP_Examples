@@ -4,3 +4,5 @@ docs/* linguist-documentation
 *.sh linguist-vendored=true
 *.am linguist-vendored=true
 *.html linguist-vendored=true
+makefile linguist-vendored=true
+Makefile linguist-vendored=true
