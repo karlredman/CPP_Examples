@@ -26,7 +26,7 @@ it a template) and the like.
 #include <stack>
 #include <map>
 #include <algorithm>
-#include <string>
+#include <cstring>
 #include <pthread.h>
 
 /** 
@@ -451,7 +451,7 @@ int main(int argc, char *argv[])
   void **ret;
 
   //string literal for later use
-  char *pc = "987654321";
+  const char *pc = "987654321";
 
   //string object of later use (example 2)
   std::string *str = new std::string("a string from main");

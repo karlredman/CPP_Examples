@@ -9,8 +9,8 @@ dnl For my rpm.m4 macros
 RPM_RELEASE=1
 AC_SUBST(RPM_RELEASE)
 
-AM_RPM_INIT
-dnl Enable or disable the rpm making rules in Makefile.am
+#AM_RPM_INIT
+#dnl Enable or disable the rpm making rules in Makefile.am
 AM_CONDITIONAL(MAKE_RPMS, test x$make_rpms = xtrue)
 
 #for c++: dnl This is a little hack to make this work with rpm better (see mysql++.spec.in)
@@ -91,7 +91,9 @@ AC_EGREP_CPP(yes,
         [#if defined(__FreeBSD_cc_version) && __FreeBSD_cc_version <= 500001
           yes
         #endif
-        ], AC_MSG_RESULT(yes) CFLAGS="$CFLAGS -D_THREAD_SAFE" PTHREAD_LIBS="-pthread",
+        ], 
+        AC_MSG_RESULT(yes),
+        CFLAGS="$CFLAGS -D_THREAD_SAFE" PTHREAD_LIBS="-pthread",
         AC_MSG_RESULT(no))
 if test "x$PTHREAD_LIBS" = xerror; then
         AC_CHECK_LIB(pthread, pthread_attr_init, PTHREAD_LIBS="-lpthread")

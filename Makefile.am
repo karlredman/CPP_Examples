@@ -4,6 +4,8 @@ SUBDIRS	= extradist docs \
 EXTRA_DIST = TODO myproject.spec myproject.spec.in \
 	am_rpm_init.m4 autogen.sh
 
+ACLOCAL_AMFLAGS = -I m4
+
 if MAKE_RPMS
 rpm: @RPM_TARGET@
 .PHONY: rpm

@@ -11,6 +11,7 @@
 */
 
 #include <iostream>
+#include <cstdio>
 
 ///Demonstration of streambuf inheritance
 class dmsg : public std::streambuf
