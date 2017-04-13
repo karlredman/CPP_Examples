@@ -6,6 +6,7 @@ EXTRA_DIST = TODO myproject.spec myproject.spec.in \
 
 ACLOCAL_AMFLAGS = -I m4
 
+### possibly currently defunct rpm target
 if MAKE_RPMS
 rpm: @RPM_TARGET@
 .PHONY: rpm
@@ -18,4 +19,7 @@ $(RPM_TARGET): $(DISTFILES)
 else
 endif
 
-
+### target list
+list:
+#.PHONY: list
+	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$' | xargs
