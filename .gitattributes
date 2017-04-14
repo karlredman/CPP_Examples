@@ -4,7 +4,7 @@ docs/* linguist-documentation
 #*.html linguist-vendored=true
 *.am linguist-vendored
 *.sh linguist-vendored
-Makefile linguist-language=make
-makefile linguist-language=make
-Makefile* linguist-language=make
+Makefile linguist-vendored
+makefile linguist-vendored
+Makefile* linguist-vendored
 config* linguist-vendored
