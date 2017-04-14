@@ -1,5 +1,6 @@
 #static/* linguist-vendored
 *.cc linguist-language=cpp
+config* linguist-language=make
 docs/* linguist-documentation
 #*.html linguist-vendored=true
 *.am linguist-vendored
