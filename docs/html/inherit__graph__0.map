@@ -1,5 +1,0 @@
-base referer
-rect $classAbstractClass.html 17,26 113,45
-rect $classBaseClass.html 163,26 235,45
-rect $classAnotherChildClass.html 285,5 405,24
-rect $classChildClass.html 309,48 381,66
