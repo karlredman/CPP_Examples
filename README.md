@@ -2,7 +2,8 @@
 
 This project consists of various C++ examples from very basic concepts to somewhat more complex subject matter. In particular, basic C++ language features are demonstrated here alongside some fairly complex IPC (interprocess communications) implementations. 
 
-* Author: Karl N. Redman ([Personal Home Page](http://karlredman.github.io))
+* Author: Karl N. Redman 
+* [Author's Home Page](http://karlredman.github.io)
 * [Project Home Page](http://karlredman.github.io/CPP_Examples)
 * [Github Project Page](https://github.com/karlredman/CPP_Examples)
 * Download package [Zip file](https://github.com/karlredman/CPP_Examples/archive/master.zip)
