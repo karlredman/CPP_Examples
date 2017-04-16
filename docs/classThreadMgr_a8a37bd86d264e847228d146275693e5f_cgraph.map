@@ -1,0 +1,4 @@
+<map id="ThreadMgr::func" name="ThreadMgr::func">
+<area shape="rect" id="node2" href="$classThreadMgr.html#a3dbc71f704d35fd399f3de3c7da9aec8" title="add a thread id to the m_terminated stack " alt="" coords="171,5,349,32"/>
+<area shape="rect" id="node3" href="$classThreadMgr.html#ac885cc5e2505221ecf8c605b05ee887b" title="shutdown a thread from pthread_cleanup_pop(). " alt="" coords="186,57,334,98"/>
+</map>

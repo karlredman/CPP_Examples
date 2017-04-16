@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classAbstractClass.html" title="A basic abstract Class (that is inherited from) " alt="" coords="5,31,111,57"/>
+<area shape="rect" id="node2" href="$classBaseClass.html" title="class that inherits from AbstractClass " alt="" coords="159,31,245,57"/>
+<area shape="rect" id="node3" href="$classAnotherChildClass.html" title="another example of ChildClass (inherits from BaseClass) " alt="" coords="293,5,424,32"/>
+<area shape="rect" id="node4" href="$classChildClass.html" title="class that inherits from BaseClass &#45;&gt; AbstractClass " alt="" coords="315,56,402,83"/>
+</map>

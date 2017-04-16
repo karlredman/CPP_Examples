@@ -12,14 +12,14 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classAbstractClass_1a0';
+      sec-mem-id   = 'classAbstractClass_1a287ffa63711c91244bdebd71900791be';
       sec-mem-virt = pure-virtual;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 virtual void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'print';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
       sec-mem-desc-line = '14';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -28,60 +28,70 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'virtuals_8cc_1a0';
+        sec-mem-ref-id = 'virtuals_8cc_1a41a2543fc8a369fc7411ca5525eee89f';
         sec-mem-ref-line = '46';
         sec-mem-ref-name = 'callPrint';
     };
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
   cp-fileline  = '11';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-A basic abstract Class (that is inherited from).
+A basic abstract Class (that is inherited from)
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 53;
+        node-id    = 49;
         node-label = 'BaseClass';
         node-link = {
           node-link-id = 'classBaseClass';
         };
         node-child = {
-          child-id = '52';
+          child-id = '48';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 52;
+        node-id    = 48;
         node-label = 'AbstractClass';
         node-link = {
           node-link-id = 'classAbstractClass';
         };
       }; /* node */
       node = {
-        node-id    = 54;
+        node-id    = 50;
         node-label = 'AnotherChildClass';
         node-link = {
           node-link-id = 'classAnotherChildClass';
         };
         node-child = {
-          child-id = '53';
+          child-id = '49';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 55;
+        node-id    = 51;
         node-label = 'ChildClass';
         node-link = {
           node-link-id = 'classChildClass';
         };
         node-child = {
-          child-id = '53';
+          child-id = '49';
           relation = public-inheritance;
         }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 52;
+        node-label = 'AbstractClass';
+        node-link = {
+          node-link-id = 'classAbstractClass';
+        };
       }; /* node */
 
 _EnD_oF_dEf_TeXt_;
@@ -95,7 +105,7 @@ class = {
     ref-prot = public;
     ref-virt = non-virtual;
   };
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
   cp-fileline  = '38';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 another example of ChildClass (inherits from BaseClass)
@@ -105,31 +115,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 58;
+        node-id    = 54;
         node-label = 'BaseClass';
         node-link = {
           node-link-id = 'classBaseClass';
         };
         node-child = {
-          child-id = '59';
+          child-id = '55';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 59;
+        node-id    = 55;
         node-label = 'AbstractClass';
         node-link = {
           node-link-id = 'classAbstractClass';
         };
       }; /* node */
       node = {
-        node-id    = 57;
+        node-id    = 53;
         node-label = 'AnotherChildClass';
         node-link = {
           node-link-id = 'classAnotherChildClass';
         };
         node-child = {
-          child-id = '58';
+          child-id = '54';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -137,31 +147,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 61;
+        node-id    = 57;
         node-label = 'BaseClass';
         node-link = {
           node-link-id = 'classBaseClass';
         };
         node-child = {
-          child-id = '62';
+          child-id = '58';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 62;
+        node-id    = 58;
         node-label = 'AbstractClass';
         node-link = {
           node-link-id = 'classAbstractClass';
         };
       }; /* node */
       node = {
-        node-id    = 60;
+        node-id    = 56;
         node-label = 'AnotherChildClass';
         node-link = {
           node-link-id = 'classAnotherChildClass';
         };
         node-child = {
-          child-id = '61';
+          child-id = '57';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -193,15 +203,15 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classBaseClass_1a0';
+      sec-mem-id   = 'classBaseClass_1a7c355aa1c1730a40e4d4ddb76d7579f8';
       sec-mem-virt = virtual;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 virtual void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'print';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
-      sec-mem-desc-line = '24';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
+      sec-mem-desc-line = '23';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -210,7 +220,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
   cp-fileline  = '19';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 class that inherits from AbstractClass
@@ -219,6 +229,49 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 59;
+        node-label = 'BaseClass';
+        node-link = {
+          node-link-id = 'classBaseClass';
+        };
+        node-child = {
+          child-id = '60';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 60;
+        node-label = 'AbstractClass';
+        node-link = {
+          node-link-id = 'classAbstractClass';
+        };
+      }; /* node */
+      node = {
+        node-id    = 61;
+        node-label = 'AnotherChildClass';
+        node-link = {
+          node-link-id = 'classAnotherChildClass';
+        };
+        node-child = {
+          child-id = '59';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 62;
+        node-label = 'ChildClass';
+        node-link = {
+          node-link-id = 'classChildClass';
+        };
+        node-child = {
+          child-id = '59';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
         node-id    = 63;
         node-label = 'BaseClass';
@@ -232,49 +285,6 @@ _EnD_oF_dEf_TeXt_;
       }; /* node */
       node = {
         node-id    = 64;
-        node-label = 'AbstractClass';
-        node-link = {
-          node-link-id = 'classAbstractClass';
-        };
-      }; /* node */
-      node = {
-        node-id    = 65;
-        node-label = 'AnotherChildClass';
-        node-link = {
-          node-link-id = 'classAnotherChildClass';
-        };
-        node-child = {
-          child-id = '63';
-          relation = public-inheritance;
-        }; /* node-child */
-      }; /* node */
-      node = {
-        node-id    = 66;
-        node-label = 'ChildClass';
-        node-link = {
-          node-link-id = 'classChildClass';
-        };
-        node-child = {
-          child-id = '63';
-          relation = public-inheritance;
-        }; /* node-child */
-      }; /* node */
-
-_EnD_oF_dEf_TeXt_;
-  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
-      node = {
-        node-id    = 67;
-        node-label = 'BaseClass';
-        node-link = {
-          node-link-id = 'classBaseClass';
-        };
-        node-child = {
-          child-id = '68';
-          relation = public-inheritance;
-        }; /* node-child */
-      }; /* node */
-      node = {
-        node-id    = 68;
         node-label = 'AbstractClass';
         node-link = {
           node-link-id = 'classAbstractClass';
@@ -296,15 +306,15 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classChildClass_1a0';
+      sec-mem-id   = 'classChildClass_1a5480b50b4ca1121abad498521afcee16';
       sec-mem-virt = virtual;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'print';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
-      sec-mem-desc-line = '33';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
+      sec-mem-desc-line = '32';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -313,7 +323,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
   cp-fileline  = '29';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 class that inherits from BaseClass -> AbstractClass
@@ -323,31 +333,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 70;
+        node-id    = 66;
         node-label = 'BaseClass';
         node-link = {
           node-link-id = 'classBaseClass';
         };
         node-child = {
-          child-id = '71';
+          child-id = '67';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 71;
+        node-id    = 67;
         node-label = 'AbstractClass';
         node-link = {
           node-link-id = 'classAbstractClass';
         };
       }; /* node */
       node = {
-        node-id    = 69;
+        node-id    = 65;
         node-label = 'ChildClass';
         node-link = {
           node-link-id = 'classChildClass';
         };
         node-child = {
-          child-id = '70';
+          child-id = '66';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -355,31 +365,31 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 73;
+        node-id    = 69;
         node-label = 'BaseClass';
         node-link = {
           node-link-id = 'classBaseClass';
         };
         node-child = {
-          child-id = '74';
+          child-id = '70';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 74;
+        node-id    = 70;
         node-label = 'AbstractClass';
         node-link = {
           node-link-id = 'classAbstractClass';
         };
       }; /* node */
       node = {
-        node-id    = 72;
+        node-id    = 68;
         node-label = 'ChildClass';
         node-link = {
           node-link-id = 'classChildClass';
         };
         node-child = {
-          child-id = '73';
+          child-id = '69';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
@@ -399,37 +409,14 @@ class = {
     sec-kind = 'public-attrib';
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classdmsg_1o0';
+      sec-mem-id   = 'classdmsg_1a0fa4e2db2bbd169fd193781d0e38905e';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'i';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/streambuf/streambuf.cc';
-      sec-mem-desc-line = '19';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceby = {
-        sec-mem-ref-id = 'streambuf_8cc_1a0';
-        sec-mem-ref-line = '46';
-        sec-mem-ref-name = 'main';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'variable';
-      sec-mem-id   = 'classdmsg_1o1';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-int *
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'p';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/streambuf/streambuf.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/streambuf/streambuf.cc';
       sec-mem-desc-line = '20';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -438,8 +425,31 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'streambuf_8cc_1a0';
-        sec-mem-ref-line = '46';
+        sec-mem-ref-id = 'streambuf_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
+        sec-mem-ref-line = '47';
+        sec-mem-ref-name = 'main';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classdmsg_1a39211051f212c4fcb9d00402e9af984a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'p';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/streambuf/streambuf.cc';
+      sec-mem-desc-line = '21';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'streambuf_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
+        sec-mem-ref-line = '47';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
@@ -448,7 +458,7 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'protected-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classdmsg_1b0';
+      sec-mem-id   = 'classdmsg_1ad14d4e4262b3b2ce005cac389abe3dd9';
       sec-mem-virt = virtual;
       sec-mem-prot = protected;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -461,27 +471,23 @@ int_type
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'c';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/streambuf/streambuf.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/streambuf/streambuf.cc';
       sec-mem-desc-line = '32';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param c character from input (<<)
 
-     \param c character from input (<<)
-
-     \par 
-     Function override that evaluates each character the stream
-     operator (<<) recieves. This is a necessary function to print to
-     the output
-  
-
-<p> uses C function putchar() for output
+\par 
+Function override that evaluates each character the stream
+operator (<<) recieves. This is a necessary function to print to
+the output
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/streambuf/streambuf.cc';
-  cp-fileline  = '17';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/streambuf/streambuf.cc';
+  cp-fileline  = '18';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 Demonstration of streambuf inheritance.
 _EnD_oF_dEf_TeXt_;
@@ -490,69 +496,282 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 75;
+        node-id    = 71;
         node-label = 'dmsg';
         node-link = {
           node-link-id = 'classdmsg';
         };
         node-child = {
-          child-id = '76';
+          child-id = '72';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 76;
+        node-id    = 72;
         node-label = 'std::streambuf';
-        node-link = {
-          node-link-id = 'classstd_1_1streambuf';
-        };
       }; /* node */
 
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 79;
-        node-label = 'int *';
-      }; /* node */
-      node = {
-        node-id    = 80;
+        node-id    = 75;
         node-label = 'int';
       }; /* node */
       node = {
-        node-id    = 77;
+        node-id    = 73;
         node-label = 'dmsg';
         node-link = {
           node-link-id = 'classdmsg';
         };
         node-child = {
-          child-id = '78';
+          child-id = '74';
           relation = public-inheritance;
         }; /* node-child */
+        node-child = {
+          child-id = '75';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++p
++i
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 74;
+        node-label = 'std::streambuf';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+struct = {
+  cp-id     = 'structThreadMgr_1_1func__arguments';
+  cp-name   = 'ThreadMgr::func_arguments';
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1a7650394ce05ff2ac315be9b421d0798c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void *(*
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'func';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+pointer to user defined function
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1aeed679cee8b5f8308486800e44110299';
+        sec-mem-ref-line = '181';
+        sec-mem-ref-name = 'ThreadMgr::createThread';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a8a37bd86d264e847228d146275693e5f';
+        sec-mem-ref-line = '265';
+        sec-mem-ref-name = 'ThreadMgr::func';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1a65227e9bf4261eac260597fcbc29fed8';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void(*
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'cancel_func';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+function to call when we are canceled
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1aeed679cee8b5f8308486800e44110299';
+        sec-mem-ref-line = '181';
+        sec-mem-ref-name = 'ThreadMgr::createThread';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a8a37bd86d264e847228d146275693e5f';
+        sec-mem-ref-line = '265';
+        sec-mem-ref-name = 'ThreadMgr::func';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1a76e39fb7b54e2340a7b7c6b3ba37c21f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'arg';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '72';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+user arguments for user function
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1aeed679cee8b5f8308486800e44110299';
+        sec-mem-ref-line = '181';
+        sec-mem-ref-name = 'ThreadMgr::createThread';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a8a37bd86d264e847228d146275693e5f';
+        sec-mem-ref-line = '265';
+        sec-mem-ref-name = 'ThreadMgr::func';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1aef66eba6bde0f09500db5645fdb34162';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+ThreadMgr *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'thisObject';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '75';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+the this object -one per thread...EEEEK!
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1aeed679cee8b5f8308486800e44110299';
+        sec-mem-ref-line = '181';
+        sec-mem-ref-name = 'ThreadMgr::createThread';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a8a37bd86d264e847228d146275693e5f';
+        sec-mem-ref-line = '265';
+        sec-mem-ref-name = 'ThreadMgr::func';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+  cp-fileline  = '64';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+structure for static wrapper function arguments
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 85;
+        node-label = 'void *';
+      }; /* node */
+      node = {
+        node-id    = 80;
+        node-label = 'pthread_mutex_t *';
+      }; /* node */
+      node = {
+        node-id    = 83;
+        node-label = 'void(*)(void *)';
+      }; /* node */
+      node = {
+        node-id    = 77;
+        node-label = 'ThreadMgr::func_arguments';
+        node-link = {
+          node-link-id = 'structThreadMgr_1_1func__arguments';
+        };
+        node-child = {
+          child-id = '78';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++thisObject
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '83';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++cancel_func
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '84';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++func
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '85';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++arg
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 79;
+        node-label = 'map< pthread_t, ThreadMgr::ThreadMgr::func_arguments * >';
+      }; /* node */
+      node = {
+        node-id    = 81;
+        node-label = 'pthread_cond_t *';
+      }; /* node */
+      node = {
+        node-id    = 84;
+        node-label = 'void *(*)(void *)';
+      }; /* node */
+      node = {
+        node-id    = 78;
+        node-label = 'ThreadMgr';
+        node-link = {
+          node-link-id = 'classThreadMgr';
+        };
         node-child = {
           child-id = '79';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-p
+-m_ids
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
         node-child = {
           child-id = '80';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-i
+-m_cond_mutex
+-m_mutex
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '81';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-m_cond_var
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '82';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+-m_terminated
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 78;
-        node-label = 'std::streambuf';
-        node-link = {
-          node-link-id = 'classstd_1_1streambuf';
-        };
+        node-id    = 82;
+        node-label = 'stack< pthread_t >';
       }; /* node */
 
 _EnD_oF_dEf_TeXt_;
-}; /* class */
+}; /* struct */
 struct = {
   cp-id     = 'structfunc__params';
   cp-name   = 'func_params';
@@ -560,14 +779,14 @@ struct = {
     sec-kind = 'public-attrib';
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'structfunc__params_1o0';
+      sec-mem-id   = 'structfunc__params_1a7612a751cc38ba9a38ada41d73b3673d';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 void *(*
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'user_func';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
       sec-mem-desc-line = '34';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -576,21 +795,26 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath2_8cc_1a2';
+        sec-mem-ref-id = 'threadDeath2_8cc_1a11e940f01812ae7923391e3d8619ed64';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'func';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath2_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '86';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'structfunc__params_1o1';
+      sec-mem-id   = 'structfunc__params_1a4237683007951fd79e48c8a4c1c097b3';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 void *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'argument';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
       sec-mem-desc-line = '35';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -599,21 +823,26 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath2_8cc_1a2';
+        sec-mem-ref-id = 'threadDeath2_8cc_1a11e940f01812ae7923391e3d8619ed64';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'func';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath2_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '86';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'structfunc__params_1o2';
+      sec-mem-id   = 'structfunc__params_1ab3f6a6d5760ccebb3f84b56f1994ecf2';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 void *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'other_info';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
       sec-mem-desc-line = '36';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -622,51 +851,56 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath2_8cc_1a2';
+        sec-mem-ref-id = 'threadDeath2_8cc_1a11e940f01812ae7923391e3d8619ed64';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'func';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'threadDeath2_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '86';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
   cp-fileline  = '33';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 wrapper function parameters/arguments
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
-
 \par Purpose:
-    function parameters to be passed to the wrapper function of the
-    user defined function.
+function parameters to be passed to the wrapper function of the
+user defined function.
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 84;
+        node-id    = 89;
         node-label = 'void *';
       }; /* node */
       node = {
-        node-id    = 82;
+        node-id    = 87;
         node-label = 'func_params';
         node-link = {
           node-link-id = 'structfunc__params';
         };
         node-child = {
-          child-id = '83';
+          child-id = '88';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-user_func
++user_func
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
         node-child = {
-          child-id = '84';
+          child-id = '89';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-other_info\nargument
++argument
++other_info
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 83;
+        node-id    = 88;
         node-label = 'void *(*)(void *)';
       }; /* node */
 
@@ -681,8 +915,8 @@ class = {
     ref-prot = public;
     ref-virt = non-virtual;
   };
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/streambuf/streambuf.cc';
-  cp-fileline  = '17';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/streambuf/streambuf.cc';
+  cp-fileline  = '18';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -691,22 +925,26 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 86;
+        node-id    = 91;
         node-label = 'dmsg';
         node-link = {
           node-link-id = 'classdmsg';
         };
         node-child = {
-          child-id = '85';
+          child-id = '90';
           relation = public-inheritance;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 85;
+        node-id    = 90;
         node-label = 'streambuf';
-        node-link = {
-          node-link-id = 'classstd_1_1streambuf';
-        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 92;
+        node-label = 'streambuf';
       }; /* node */
 
 _EnD_oF_dEf_TeXt_;
@@ -718,15 +956,15 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1a0';
+      sec-mem-id   = 'classThreadMgr_1afe858b6d5ea9c7acb604c0ff9125acf6';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'ThreadMgr';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '81';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '80';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 constructor
 _EnD_oF_dEf_TeXt_;
@@ -734,24 +972,24 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a04cbd0e7e6e43261bb0b4bddc364f00c';
         sec-mem-ref-line = '413';
         sec-mem-ref-name = 'm_cond_mutex';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a26e1f1d3ed3eb826ec56fb9d79e6ffbe';
         sec-mem-ref-line = '416';
         sec-mem-ref-name = 'm_cond_var';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a6ebcc9c89d5467da36c5a99970409016';
         sec-mem-ref-line = '410';
         sec-mem-ref-name = 'm_mutex';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1a1';
+      sec-mem-id   = 'classThreadMgr_1ad731b9dbd261bc4665bad0b40a3db1eb';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -764,8 +1002,8 @@ pthread_t *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'tid';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '101';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '100';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 cancel a thread
 _EnD_oF_dEf_TeXt_;
@@ -773,24 +1011,24 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r3';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a7bf2d9aea00e3364b3b14333295e2adc';
         sec-mem-ref-line = '419';
         sec-mem-ref-name = 'm_ids';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a6ebcc9c89d5467da36c5a99970409016';
         sec-mem-ref-line = '410';
         sec-mem-ref-name = 'm_mutex';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a6';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '448';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1a2';
+      sec-mem-id   = 'classThreadMgr_1ab27dc1197d7c3955d1b7e2a529a0a40e';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -803,8 +1041,8 @@ void **
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'thread_return_val';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '141';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '140';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 wait on a condition variable for a thread to terminate
 _EnD_oF_dEf_TeXt_;
@@ -812,44 +1050,44 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a04cbd0e7e6e43261bb0b4bddc364f00c';
         sec-mem-ref-line = '413';
         sec-mem-ref-name = 'm_cond_mutex';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a26e1f1d3ed3eb826ec56fb9d79e6ffbe';
         sec-mem-ref-line = '416';
         sec-mem-ref-name = 'm_cond_var';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a5';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a406fff78718eca2fdcd25d856b949ce7';
         sec-mem-ref-line = '251';
         sec-mem-ref-name = 'no_threads_terminated';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1b0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ac38ddb1c78cbf5e366ec44850aeb8397';
         sec-mem-ref-line = '336';
         sec-mem-ref-name = 'removeTerminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a6';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '448';
         sec-mem-ref-name = 'main';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a5';
+        sec-mem-ref-id = 'threadDeath3_8cc_1aa250a4a7e0a6fb820b2f1095b2c4de21';
         sec-mem-ref-line = '723';
         sec-mem-ref-name = 'TwaitStringThreads';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a65caca2058eca9fc843329a064345891';
         sec-mem-ref-line = '656';
         sec-mem-ref-name = 'waitStringThreads';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1a3';
+      sec-mem-id   = 'classThreadMgr_1aeed679cee8b5f8308486800e44110299';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -868,8 +1106,8 @@ void *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'arg';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '182';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '181';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 attempt to create a new thread and register it
 _EnD_oF_dEf_TeXt_;
@@ -877,32 +1115,47 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1b1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a96843ae9fae3854ab19fb375ae9b8653';
         sec-mem-ref-line = '386';
         sec-mem-ref-name = 'addID';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f0';
-        sec-mem-ref-line = '265';
-        sec-mem-ref-name = 'func';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a76e39fb7b54e2340a7b7c6b3ba37c21f';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::arg';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a65227e9bf4261eac260597fcbc29fed8';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::cancel_func';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a7650394ce05ff2ac315be9b421d0798c';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::func';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1aef66eba6bde0f09500db5645fdb34162';
+        sec-mem-ref-line = '75';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::thisObject';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a6';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '448';
         sec-mem-ref-name = 'main';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1a4';
+      sec-mem-id   = 'classThreadMgr_1a85b1d99fa66ff17daea44b1defe43810';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'threadsActive';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '242';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '241';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 return the number of active threads
 _EnD_oF_dEf_TeXt_;
@@ -910,42 +1163,42 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r3';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a7bf2d9aea00e3364b3b14333295e2adc';
         sec-mem-ref-line = '419';
         sec-mem-ref-name = 'm_ids';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a6ebcc9c89d5467da36c5a99970409016';
         sec-mem-ref-line = '410';
         sec-mem-ref-name = 'm_mutex';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a6';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '448';
         sec-mem-ref-name = 'main';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a5';
+        sec-mem-ref-id = 'threadDeath3_8cc_1aa250a4a7e0a6fb820b2f1095b2c4de21';
         sec-mem-ref-line = '723';
         sec-mem-ref-name = 'TwaitStringThreads';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a65caca2058eca9fc843329a064345891';
         sec-mem-ref-line = '656';
         sec-mem-ref-name = 'waitStringThreads';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1a5';
+      sec-mem-id   = 'classThreadMgr_1a406fff78718eca2fdcd25d856b949ce7';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'no_threads_terminated';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '252';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '251';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 answers the question "are there no theads terminated?"
 _EnD_oF_dEf_TeXt_;
@@ -953,22 +1206,22 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a6ebcc9c89d5467da36c5a99970409016';
         sec-mem-ref-line = '410';
         sec-mem-ref-name = 'm_mutex';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r4';
+        sec-mem-ref-id = 'threadDeath3_8cc_1acdc4ba558ed5fc00fb84aecd586c8e41';
         sec-mem-ref-line = '422';
         sec-mem-ref-name = 'm_terminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ab27dc1197d7c3955d1b7e2a529a0a40e';
         sec-mem-ref-line = '140';
         sec-mem-ref-name = 'condWait';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a6';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         sec-mem-ref-line = '448';
         sec-mem-ref-name = 'main';
     };
@@ -978,7 +1231,7 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'protected-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1b0';
+      sec-mem-id   = 'classThreadMgr_1ac38ddb1c78cbf5e366ec44850aeb8397';
       sec-mem-virt = normal;
       sec-mem-prot = protected;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -991,8 +1244,8 @@ void **
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'return_val';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '337';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '336';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 remove a terminated thread LIFO
 _EnD_oF_dEf_TeXt_;
@@ -1000,29 +1253,29 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r3';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a7bf2d9aea00e3364b3b14333295e2adc';
         sec-mem-ref-line = '419';
         sec-mem-ref-name = 'm_ids';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a6ebcc9c89d5467da36c5a99970409016';
         sec-mem-ref-line = '410';
         sec-mem-ref-name = 'm_mutex';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r4';
+        sec-mem-ref-id = 'threadDeath3_8cc_1acdc4ba558ed5fc00fb84aecd586c8e41';
         sec-mem-ref-line = '422';
         sec-mem-ref-name = 'm_terminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ab27dc1197d7c3955d1b7e2a529a0a40e';
         sec-mem-ref-line = '140';
         sec-mem-ref-name = 'condWait';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1b1';
+      sec-mem-id   = 'classThreadMgr_1a96843ae9fae3854ab19fb375ae9b8653';
       sec-mem-virt = normal;
       sec-mem-prot = protected;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -1041,8 +1294,8 @@ func_arguments *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'arg';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '387';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '386';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 add a thread id to the id vector
 _EnD_oF_dEf_TeXt_;
@@ -1050,17 +1303,17 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r3';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a7bf2d9aea00e3364b3b14333295e2adc';
         sec-mem-ref-line = '419';
         sec-mem-ref-name = 'm_ids';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a6ebcc9c89d5467da36c5a99970409016';
         sec-mem-ref-line = '410';
         sec-mem-ref-name = 'm_mutex';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a3';
+        sec-mem-ref-id = 'threadDeath3_8cc_1aeed679cee8b5f8308486800e44110299';
         sec-mem-ref-line = '181';
         sec-mem-ref-name = 'createThread';
     };
@@ -1070,11 +1323,11 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'protected-static-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1f0';
+      sec-mem-id   = 'classThreadMgr_1a8a37bd86d264e847228d146275693e5f';
       sec-mem-virt = normal;
       sec-mem-prot = protected;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void *
+static void *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'func';
       sec-mem-param = {
@@ -1083,8 +1336,8 @@ void *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'arg';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '266';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '265';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 internal thread function
 _EnD_oF_dEf_TeXt_;
@@ -1092,28 +1345,43 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a3dbc71f704d35fd399f3de3c7da9aec8';
         sec-mem-ref-line = '317';
         sec-mem-ref-name = 'addTerminated';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a76e39fb7b54e2340a7b7c6b3ba37c21f';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::arg';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a65227e9bf4261eac260597fcbc29fed8';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::cancel_func';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1a7650394ce05ff2ac315be9b421d0798c';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::func';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1ac885cc5e2505221ecf8c605b05ee887b';
         sec-mem-ref-line = '399';
         sec-mem-ref-name = 'shutdown_thread';
     };
-      sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a3';
-        sec-mem-ref-line = '181';
-        sec-mem-ref-name = 'createThread';
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'threadDeath3_8cc_1aef66eba6bde0f09500db5645fdb34162';
+        sec-mem-ref-line = '75';
+        sec-mem-ref-name = 'ThreadMgr::func_arguments::thisObject';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1f1';
+      sec-mem-id   = 'classThreadMgr_1a3dbc71f704d35fd399f3de3c7da9aec8';
       sec-mem-virt = normal;
       sec-mem-prot = protected;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void *
+static void *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'addTerminated';
       sec-mem-param = {
@@ -1122,8 +1390,8 @@ ThreadMgr *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'arg';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '318';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '317';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 add a thread id to the m_terminated stack
 _EnD_oF_dEf_TeXt_;
@@ -1131,33 +1399,33 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a26e1f1d3ed3eb826ec56fb9d79e6ffbe';
         sec-mem-ref-line = '416';
         sec-mem-ref-name = 'm_cond_var';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a6ebcc9c89d5467da36c5a99970409016';
         sec-mem-ref-line = '410';
         sec-mem-ref-name = 'm_mutex';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1r4';
+        sec-mem-ref-id = 'threadDeath3_8cc_1acdc4ba558ed5fc00fb84aecd586c8e41';
         sec-mem-ref-line = '422';
         sec-mem-ref-name = 'm_terminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a8a37bd86d264e847228d146275693e5f';
         sec-mem-ref-line = '265';
         sec-mem-ref-name = 'func';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'classThreadMgr_1f2';
+      sec-mem-id   = 'classThreadMgr_1ac885cc5e2505221ecf8c605b05ee887b';
       sec-mem-virt = normal;
       sec-mem-prot = protected;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void
+static void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'shutdown_thread';
       sec-mem-param = {
@@ -1166,8 +1434,8 @@ void *
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'arg';
       }; /*        sec-mem-param--param */
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '400';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-line = '399';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 shutdown a thread from pthread_cleanup_pop().
 _EnD_oF_dEf_TeXt_;
@@ -1175,7 +1443,7 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a8a37bd86d264e847228d146275693e5f';
         sec-mem-ref-line = '265';
         sec-mem-ref-name = 'func';
     };
@@ -1185,14 +1453,14 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'private-attrib';
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classThreadMgr_1r0';
+      sec-mem-id   = 'classThreadMgr_1a6ebcc9c89d5467da36c5a99970409016';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 pthread_mutex_t *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'm_mutex';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       sec-mem-desc-line = '410';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 mutex for data access (m_ids, m_terminated)
@@ -1201,51 +1469,51 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1b1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a96843ae9fae3854ab19fb375ae9b8653';
         sec-mem-ref-line = '386';
         sec-mem-ref-name = 'addID';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a3dbc71f704d35fd399f3de3c7da9aec8';
         sec-mem-ref-line = '317';
         sec-mem-ref-name = 'addTerminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ad731b9dbd261bc4665bad0b40a3db1eb';
         sec-mem-ref-line = '100';
         sec-mem-ref-name = 'cancel_thread';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a5';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a406fff78718eca2fdcd25d856b949ce7';
         sec-mem-ref-line = '251';
         sec-mem-ref-name = 'no_threads_terminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1b0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ac38ddb1c78cbf5e366ec44850aeb8397';
         sec-mem-ref-line = '336';
         sec-mem-ref-name = 'removeTerminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1afe858b6d5ea9c7acb604c0ff9125acf6';
         sec-mem-ref-line = '80';
         sec-mem-ref-name = 'ThreadMgr';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a4';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a85b1d99fa66ff17daea44b1defe43810';
         sec-mem-ref-line = '241';
         sec-mem-ref-name = 'threadsActive';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classThreadMgr_1r1';
+      sec-mem-id   = 'classThreadMgr_1a04cbd0e7e6e43261bb0b4bddc364f00c';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 pthread_mutex_t *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'm_cond_mutex';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       sec-mem-desc-line = '413';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 mutex for condition variable
@@ -1254,26 +1522,26 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ab27dc1197d7c3955d1b7e2a529a0a40e';
         sec-mem-ref-line = '140';
         sec-mem-ref-name = 'condWait';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1afe858b6d5ea9c7acb604c0ff9125acf6';
         sec-mem-ref-line = '80';
         sec-mem-ref-name = 'ThreadMgr';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classThreadMgr_1r2';
+      sec-mem-id   = 'classThreadMgr_1a26e1f1d3ed3eb826ec56fb9d79e6ffbe';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 pthread_cond_t *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'm_cond_var';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       sec-mem-desc-line = '416';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 condition variable
@@ -1282,31 +1550,31 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a3dbc71f704d35fd399f3de3c7da9aec8';
         sec-mem-ref-line = '317';
         sec-mem-ref-name = 'addTerminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a2';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ab27dc1197d7c3955d1b7e2a529a0a40e';
         sec-mem-ref-line = '140';
         sec-mem-ref-name = 'condWait';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1afe858b6d5ea9c7acb604c0ff9125acf6';
         sec-mem-ref-line = '80';
         sec-mem-ref-name = 'ThreadMgr';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classThreadMgr_1r3';
+      sec-mem-id   = 'classThreadMgr_1a7bf2d9aea00e3364b3b14333295e2adc';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 std::map< pthread_t, ThreadMgr::func_arguments * >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'm_ids';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       sec-mem-desc-line = '419';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 map of all thread ids and function attributes
@@ -1315,36 +1583,36 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1b1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a96843ae9fae3854ab19fb375ae9b8653';
         sec-mem-ref-line = '386';
         sec-mem-ref-name = 'addID';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ad731b9dbd261bc4665bad0b40a3db1eb';
         sec-mem-ref-line = '100';
         sec-mem-ref-name = 'cancel_thread';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1b0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ac38ddb1c78cbf5e366ec44850aeb8397';
         sec-mem-ref-line = '336';
         sec-mem-ref-name = 'removeTerminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a4';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a85b1d99fa66ff17daea44b1defe43810';
         sec-mem-ref-line = '241';
         sec-mem-ref-name = 'threadsActive';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classThreadMgr_1r4';
+      sec-mem-id   = 'classThreadMgr_1acdc4ba558ed5fc00fb84aecd586c8e41';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 std::stack< pthread_t >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'm_terminated';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      sec-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       sec-mem-desc-line = '422';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 stack of terminated thread ids
@@ -1353,311 +1621,123 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1f1';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a3dbc71f704d35fd399f3de3c7da9aec8';
         sec-mem-ref-line = '317';
         sec-mem-ref-name = 'addTerminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1a5';
+        sec-mem-ref-id = 'threadDeath3_8cc_1a406fff78718eca2fdcd25d856b949ce7';
         sec-mem-ref-line = '251';
         sec-mem-ref-name = 'no_threads_terminated';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = 'threadDeath3_8cc_1b0';
+        sec-mem-ref-id = 'threadDeath3_8cc_1ac38ddb1c78cbf5e366ec44850aeb8397';
         sec-mem-ref-line = '336';
         sec-mem-ref-name = 'removeTerminated';
     };
     }; /* sec-member */
   }; /* cp-section */
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+  cp-filename  = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
   cp-fileline  = '60';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 A basic thread management class.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
+\author Karl N. Redman (karl.redman@gmail.com)
 
-    \author Karl N. Redman (parasyte@sleepingstill.com)
+\par Purpose:
+This is an example class intended to be used as a guidline for the
+work required to handle pthreads where the main process (the
+parent of the initial threads) waits on a condition variable for
+the threads to terminate. The functions that are specified for the
+pthread_create are user defined. <br>
+<br>
+This class should be pretty fast and relatively easy to use for
+most general purpose thread programming. In general, it's a good
+place to start.
+<br>
+<br>
+Basic pthread "voidness" has been retained for demonstration
+purposes. It is concevable that this class could be instantiated
+from and / or altered to make the user interface easier to work
+with (in other words -we could get rid of much of the user end
+casting through inheritance).
 
-    \par Purpose:
-    This is an example class intended to be used as a guidline for the
-    work required to handle pthreads where the main process (the
-    parent of the initial threads) waits on a condition variable for
-    the threads to terminate. The functions that are specified for the
-    pthread_create are user defined. <br>
-    <br>
-    This class should be pretty fast and relatively easy to use for
-    most general purpose thread programming. In general, it's a good
-    place to start.
-    <br>
-    <br>
-    Basic pthread "voidness" has been retained for demonstration
-    purposes. It is concevable that this class could be instantiated
-    from and / or altered to make the user interface easier to work
-    with (in other words -we could get rid of much of the user end
-    casting through inheritance).
-
-    \note
-    This class is not intended for use by detached threads unless some
-    of the functions are overridden. Also, the use of long casting was
-    used in favor of readability in the interests of speed.
+\note
+This class is not intended for use by detached threads unless some
+of the functions are overridden. Also, the use of long casting was
+used in favor of readability in the interests of speed.
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
-        node-id    = 90;
-        node-label = 'map< pthread_t, ThreadMgr::func_arguments * >';
-      }; /* node */
-      node = {
-        node-id    = 91;
+        node-id    = 96;
         node-label = 'pthread_mutex_t *';
       }; /* node */
       node = {
-        node-id    = 92;
+        node-id    = 95;
+        node-label = 'map< pthread_t, ThreadMgr::ThreadMgr::func_arguments * >';
+      }; /* node */
+      node = {
+        node-id    = 97;
         node-label = 'pthread_cond_t *';
       }; /* node */
       node = {
-        node-id    = 89;
+        node-id    = 94;
         node-label = 'ThreadMgr';
         node-link = {
           node-link-id = 'classThreadMgr';
         };
         node-child = {
-          child-id = '90';
+          child-id = '95';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-m_ids
+-m_ids
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
-        node-child = {
-          child-id = '91';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-m_mutex\nm_cond_mutex
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-        node-child = {
-          child-id = '92';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-m_cond_var
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-        node-child = {
-          child-id = '93';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-m_terminated
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-      }; /* node */
-      node = {
-        node-id    = 93;
-        node-label = 'stack< pthread_t >';
-      }; /* node */
-
-_EnD_oF_dEf_TeXt_;
-}; /* class */
-struct = {
-  cp-id     = 'structThreadMgr_1_1func__arguments';
-  cp-name   = 'ThreadMgr::func_arguments';
-  cp-section = {
-    sec-kind = 'public-attrib';
-    sec-member = {
-      sec-mem-kind = 'variable';
-      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1o0';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void *(*
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'func';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '66';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-pointer to user defined function
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'variable';
-      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1o1';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void(*
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'cancel_func';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '69';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-function to call when we are canceled
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'variable';
-      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1o2';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-void *
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'arg';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '72';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-user arguments for user function
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'variable';
-      sec-mem-id   = 'structThreadMgr_1_1func__arguments_1o3';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-ThreadMgr *
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'thisObject';
-      sec-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      sec-mem-desc-line = '75';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-the this object -one per thread...EEEEK!
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
-  }; /* cp-section */
-  cp-filename  = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-  cp-fileline  = '64';
-  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-structure for static wrapper function arguments
-_EnD_oF_dEf_TeXt_;
-  cp-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
-      node = {
-        node-id    = 103;
-        node-label = 'void *';
-      }; /* node */
-      node = {
-        node-id    = 97;
-        node-label = 'map< pthread_t, ThreadMgr::func_arguments * >';
-      }; /* node */
-      node = {
-        node-id    = 98;
-        node-label = 'pthread_mutex_t *';
-      }; /* node */
-      node = {
-        node-id    = 101;
-        node-label = 'void(*)(void *)';
-      }; /* node */
-      node = {
-        node-id    = 95;
-        node-label = 'ThreadMgr::func_arguments';
-        node-link = {
-          node-link-id = 'structThreadMgr_1_1func__arguments';
-        };
         node-child = {
           child-id = '96';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-thisObject
+-m_cond_mutex
+-m_mutex
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
-        node-child = {
-          child-id = '101';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-cancel_func
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-        node-child = {
-          child-id = '102';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-func
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-        node-child = {
-          child-id = '103';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-arg
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-      }; /* node */
-      node = {
-        node-id    = 99;
-        node-label = 'pthread_cond_t *';
-      }; /* node */
-      node = {
-        node-id    = 102;
-        node-label = 'void *(*)(void *)';
-      }; /* node */
-      node = {
-        node-id    = 96;
-        node-label = 'ThreadMgr';
-        node-link = {
-          node-link-id = 'classThreadMgr';
-        };
         node-child = {
           child-id = '97';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-m_ids
+-m_cond_var
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
         node-child = {
           child-id = '98';
           relation = usage;
           edgelabel = <<_EnD_oF_dEf_TeXt_
-m_mutex\nm_cond_mutex
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-        node-child = {
-          child-id = '99';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-m_cond_var
-_EnD_oF_dEf_TeXt_;
-        }; /* node-child */
-        node-child = {
-          child-id = '100';
-          relation = usage;
-          edgelabel = <<_EnD_oF_dEf_TeXt_
-m_terminated
+-m_terminated
 _EnD_oF_dEf_TeXt_;
         }; /* node-child */
       }; /* node */
       node = {
-        node-id    = 100;
+        node-id    = 98;
         node-label = 'stack< pthread_t >';
       }; /* node */
 
 _EnD_oF_dEf_TeXt_;
-}; /* struct */
+}; /* class */
 file = {
   file-id   = 'config_8h';
   file-name = 'config.h';
     define = {
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a0';
+      define-mem-id   = 'config_8h_1a6247bc79b0a606bddbf5a90fc3a03194';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'COPYRIGHT';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"COPYRIGHT 2004, Karl N. Redman (parasyte@sleepingstill.com)"
+"COPYRIGHT 2004, Karl N. Redman (karl.redman@gmail.com)"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '5';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1668,14 +1748,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a1';
+      define-mem-id   = 'config_8h_1a2cc88864f2aaa74f3d4d09d76ac2961b';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'DEBUG_PRINTF';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 printf
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '8';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1686,14 +1766,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a2';
+      define-mem-id   = 'config_8h_1a9eca44e89f9e3731884c7c8f056308e0';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'DEBUG_PRINTF_INCLUDE';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 <stdio.h>
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '11';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1704,14 +1784,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a3';
+      define-mem-id   = 'config_8h_1a7cc70673e1bfa2cbbc58f1733a8aa344';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'ENABLE_NLS';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '14';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1722,14 +1802,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a4';
+      define-mem-id   = 'config_8h_1ab23870bd5469d09c183b5a4e89efd81d';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'GETTEXT_PACKAGE';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 myCPPexamples
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '17';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1740,14 +1820,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a5';
+      define-mem-id   = 'config_8h_1a48e5e7e58a84cca543564c4c644ded61';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_BIND_TEXTDOMAIN_CODESET';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '20';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1758,14 +1838,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a6';
+      define-mem-id   = 'config_8h_1acc7d833fd02af49a7557f004021382ae';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_DCGETTEXT';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '23';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1776,14 +1856,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a7';
+      define-mem-id   = 'config_8h_1a0ee1617ff2f6885ef384a3dd46f9b9d7';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_DLFCN_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '26';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1794,14 +1874,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a8';
+      define-mem-id   = 'config_8h_1af1f713a125fcc35140c75f5526aafd23';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_GETTEXT';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '29';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1812,14 +1892,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a9';
+      define-mem-id   = 'config_8h_1ab90a030ff2790ebdc176660a6dd2a478';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_INTTYPES_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '32';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1830,14 +1910,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a10';
+      define-mem-id   = 'config_8h_1a1c300f875a064d53fbf1f154ffca5314';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_LC_MESSAGES';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '35';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1848,14 +1928,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a11';
+      define-mem-id   = 'config_8h_1aec3873a23961f50c1d92c8f75a50bd40';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_LOCALE_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '38';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1866,14 +1946,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a12';
+      define-mem-id   = 'config_8h_1ae93a78f9d076138897af441c9f86f285';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_MEMORY_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '41';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1884,14 +1964,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a13';
+      define-mem-id   = 'config_8h_1ab6cd6d1c63c1e26ea2d4537b77148354';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_STDINT_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '44';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1902,14 +1982,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a14';
+      define-mem-id   = 'config_8h_1a9e0e434ec1a6ddbd97db12b5a32905e0';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_STDLIB_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '47';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1920,14 +2000,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a15';
+      define-mem-id   = 'config_8h_1a405d10d46190bcb0320524c54eafc850';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_STRINGS_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '50';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1938,14 +2018,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a16';
+      define-mem-id   = 'config_8h_1ad4c234dd1625255dc626a15886306e7d';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_STRING_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '53';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1956,14 +2036,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a17';
+      define-mem-id   = 'config_8h_1ace156430ba007d19b4348a950d0c692b';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_SYS_STAT_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '56';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1974,14 +2054,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a18';
+      define-mem-id   = 'config_8h_1a69dc70bea5d1f8bd2be9740e974fa666';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_SYS_TYPES_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '59';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -1992,14 +2072,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a19';
+      define-mem-id   = 'config_8h_1a219b06937831d0da94d801ab13987639';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'HAVE_UNISTD_H';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 1
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '62';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2010,14 +2090,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a20';
+      define-mem-id   = 'config_8h_1a5c614f0c43289cf27b3358d928440a36';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'LICENSE';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 "This application comes with ABSOLUTELY NO WARRANTY; \nfor details see the licensing agreement distributed with this application"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '65';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2028,14 +2108,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a21';
+      define-mem-id   = 'config_8h_1ac2d5925d76379847dd9fc4747b061659';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'PACKAGE';
+      define-mem-name = 'LT_OBJDIR';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"myCPPexamples"
+".libs/"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '68';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2046,14 +2126,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a22';
+      define-mem-id   = 'config_8h_1aca8570fb706c81df371b7f9bc454ae03';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'PACKAGE_BUGREPORT';
+      define-mem-name = 'PACKAGE';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"parasyte@sleepingstill.com"
+"myCPPexamples"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '71';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2064,14 +2144,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a23';
+      define-mem-id   = 'config_8h_1a1d1d2d7f8d2f95b376954d649ab03233';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'PACKAGE_LOCALE_DIR';
+      define-mem-name = 'PACKAGE_BUGREPORT';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-/usr/local/share/locale
+"karl.redman@gmail.com"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '74';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2082,14 +2162,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a24';
+      define-mem-id   = 'config_8h_1affee69eb69fca1283e943b2a8c5d8bf9';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'PACKAGE_NAME';
+      define-mem-name = 'PACKAGE_LOCALE_DIR';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"myCCexamples"
+/usr/local/share/locale
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '77';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2100,14 +2180,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a25';
+      define-mem-id   = 'config_8h_1a1c0439e4355794c09b64274849eb0279';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'PACKAGE_STRING';
+      define-mem-name = 'PACKAGE_NAME';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"myCCexamples 0.0.1"
+"myCCexamples"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '80';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2118,14 +2198,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a26';
+      define-mem-id   = 'config_8h_1ac73e6f903c16eca7710f92e36e1c6fbf';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'PACKAGE_TARNAME';
+      define-mem-name = 'PACKAGE_STRING';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"myccexamples"
+"myCCexamples 0.0.1"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '83';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2136,14 +2216,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a27';
+      define-mem-id   = 'config_8h_1af415af6bfede0e8d5453708afe68651c';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'PACKAGE_VERSION';
+      define-mem-name = 'PACKAGE_TARNAME';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-"0.0.1"
+"myccexamples"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '86';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2154,14 +2234,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a28';
+      define-mem-id   = 'config_8h_1a5c93853116d5a50307b6744f147840aa';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'STDC_HEADERS';
+      define-mem-name = 'PACKAGE_URL';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
-1
+""
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '89';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2172,14 +2252,14 @@ _EnD_oF_dEf_TeXt_;
     }; /* define-member */
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'config_8h_1a29';
+      define-mem-id   = 'config_8h_1aa326a05d5e30f9e9a4bb0b4469d5d0c0';
       define-mem-virt = normal;
       define-mem-prot = public;
-      define-mem-name = 'VERSION';
+      define-mem-name = 'PACKAGE_VERSION';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 "0.0.1"
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/config.h';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
       define-mem-desc-line = '92';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2188,8 +2268,44 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
     }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a550e5c272cc3cf3814651721167dcd23';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'STDC_HEADERS';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+1
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
+      define-mem-desc-line = '95';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'config_8h_1a1c6d5de492ac61ad29aec7aa9a436bbf';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'VERSION';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+"0.0.1"
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/config.h';
+      define-mem-desc-line = '98';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/config.h';
+  file-full-name  = '/home/karl/myproject-0.0.1/config.h';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 
@@ -2201,13 +2317,12 @@ _EnD_oF_dEf_TeXt_;
 file = {
   file-id   = 'doxygen__msg_8cc';
   file-name = 'doxygen_msg.cc';
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/doxygen_msg.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/doxygen_msg.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 doxygen dummy file (it's cheezy but it works...)
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
-
 
 
 
@@ -2219,15 +2334,15 @@ file = {
     define = {
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'iteration_8cc_1a0';
+      define-mem-id   = 'iteration_8cc_1a392fb874e547e582e9c66a08a1f23326';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'MAX';
       define-mem-initializer = <<_EnD_oF_dEf_TeXt_
 10
 _EnD_oF_dEf_TeXt_;
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/iteration/iteration.cc';
-      define-mem-desc-line = '8';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/src/iteration/iteration.cc';
+      define-mem-desc-line = '9';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2235,8 +2350,8 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       define-mem-referenceby = {
-        define-mem-ref-id = 'iteration_8cc_1a1';
-        define-mem-ref-line = '10';
+        define-mem-ref-id = 'iteration_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
+        define-mem-ref-line = '11';
         define-mem-ref-name = 'main';
     };
     }; /* define-member */
@@ -2244,7 +2359,7 @@ _EnD_oF_dEf_TeXt_;
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'iteration_8cc_1a1';
+      func-mem-id   = 'iteration_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2263,7 +2378,7 @@ char **
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/iteration/iteration.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/iteration/iteration.cc';
       func-mem-desc-line = '11';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2272,19 +2387,18 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'iteration_8cc_1a0';
-        func-mem-ref-line = '8';
+        func-mem-ref-id = 'iteration_8cc_1a392fb874e547e582e9c66a08a1f23326';
+        func-mem-ref-line = '9';
         func-mem-ref-name = 'MAX';
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/iteration/iteration.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/iteration/iteration.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 Program that demonstrates various iteration constructs.
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
-
 
 
 
@@ -2296,15 +2410,15 @@ file = {
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'overload_8cc_1a0';
+      func-mem-id   = 'overload_8cc_1ab946818f6a66d53452222c9b781c2959';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
 int
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'thing1';
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/overload/overload.cc';
-      func-mem-desc-line = '13';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/overload/overload.cc';
+      func-mem-desc-line = '12';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2312,14 +2426,14 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'overload_8cc_1a4';
+        func-mem-ref-id = 'overload_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
         func-mem-ref-line = '37';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'overload_8cc_1a1';
+      func-mem-id   = 'overload_8cc_1a5cbe76afdd81788092b2a6e32c5257ee';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2332,8 +2446,8 @@ int
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'i';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/overload/overload.cc';
-      func-mem-desc-line = '19';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/overload/overload.cc';
+      func-mem-desc-line = '18';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2343,15 +2457,15 @@ _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'overload_8cc_1a2';
+      func-mem-id   = 'overload_8cc_1a2adaf1c1e13cab1683a920041fbf92ee';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
 double
 _EnD_oF_dEf_TeXt_;
       func-mem-name = 'thing2';
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/overload/overload.cc';
-      func-mem-desc-line = '25';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/overload/overload.cc';
+      func-mem-desc-line = '24';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2359,14 +2473,14 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'overload_8cc_1a4';
+        func-mem-ref-id = 'overload_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
         func-mem-ref-line = '37';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'overload_8cc_1a3';
+      func-mem-id   = 'overload_8cc_1a627a08d4a8c41657519871ff6ae58503';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2379,8 +2493,8 @@ int
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'i';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/overload/overload.cc';
-      func-mem-desc-line = '30';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/overload/overload.cc';
+      func-mem-desc-line = '29';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2390,7 +2504,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'overload_8cc_1a4';
+      func-mem-id   = 'overload_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2409,8 +2523,8 @@ char **
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/overload/overload.cc';
-      func-mem-desc-line = '38';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/overload/overload.cc';
+      func-mem-desc-line = '37';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2418,24 +2532,23 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'overload_8cc_1a0';
+        func-mem-ref-id = 'overload_8cc_1ab946818f6a66d53452222c9b781c2959';
         func-mem-ref-line = '12';
         func-mem-ref-name = 'thing1';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'overload_8cc_1a2';
+        func-mem-ref-id = 'overload_8cc_1a2adaf1c1e13cab1683a920041fbf92ee';
         func-mem-ref-line = '24';
         func-mem-ref-name = 'thing2';
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/overload/overload.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/overload/overload.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 simple overloading example
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
-
 
 
 
@@ -2447,7 +2560,7 @@ file = {
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'simpleTemplate_8cc_1a0';
+      func-mem-id   = 'simpleTemplate_8cc_1a239b2c50bd8781006ad0befd357d35fa';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2478,38 +2591,37 @@ int
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'numElements';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/template/simpleTemplate.cc';
-      func-mem-desc-line = '33';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/template/simpleTemplate.cc';
+      func-mem-desc-line = '32';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Template function to copy a string literal.
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\author Karl N. Redman
 
-    \author Karl N. Redman
+\param a array 1
+\param b array 2
+\param size total size of the array
+\param numElements used for printing the array contents (cheezy)
 
-    \param a array 1
-    \param b array 2
-    \param size total size of the array
-    \param numElements used for printing the array contents (cheezy)
+\return count of elements copied or -1 on error. Failure to pass an
+array to this function is undetermined.
 
-    \return count of elements copied or -1 on error. Failure to pass an
-    array to this function is undetermined.
+\par Purpose:
+Template that copies a string literal or any array upto the point
+where the contents of the array element is equal to 0 ('\0').
 
-    \par Purpose:
-    Template that copies a string literal or any array upto the point
-    where the contents of the array element is equal to 0 ('\0').
+\note
+The arrays are expected to be the same size. 
 
-    \note
-    The arrays are expected to be the same size. 
-
-    \warning
-    This template has very little practical application. This is
-    merely here to demonstrate a simple Template function
+\warning
+This template has very little practical application. This is
+merely here to demonstrate a simple Template function
 _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'simpleTemplate_8cc_1a1';
+      func-mem-id   = 'simpleTemplate_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2529,8 +2641,8 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
         func-mem-param-array = '[]';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/template/simpleTemplate.cc';
-      func-mem-desc-line = '78';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/template/simpleTemplate.cc';
+      func-mem-desc-line = '77';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2539,13 +2651,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/template/simpleTemplate.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/template/simpleTemplate.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 Simple template examples.
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
-
 
 
 
@@ -2557,7 +2668,7 @@ file = {
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'streambuf_8cc_1a0';
+      func-mem-id   = 'streambuf_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2576,7 +2687,7 @@ char **
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/streambuf/streambuf.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/streambuf/streambuf.cc';
       func-mem-desc-line = '47';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
@@ -2585,34 +2696,30 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'streambuf_8cc_1o0';
-        func-mem-ref-line = '19';
+        func-mem-ref-id = 'streambuf_8cc_1a0fa4e2db2bbd169fd193781d0e38905e';
+        func-mem-ref-line = '20';
         func-mem-ref-name = 'dmsg::i';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'streambuf_8cc_1o1';
-        func-mem-ref-line = '20';
+        func-mem-ref-id = 'streambuf_8cc_1a39211051f212c4fcb9d00402e9af984a';
+        func-mem-ref-line = '21';
         func-mem-ref-name = 'dmsg::p';
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/streambuf/streambuf.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/streambuf/streambuf.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 Demonstration of streambuf inheritance.
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
+\par Purpose:
+Program that demonstrates inheriting from streambuf to act
+just like cout. The program comes from chapter 13 of "The C++
+Standard Library" (Josuttis). 
 
-  \par Purpose:
-  Program that demonstrates inheriting from streambuf to act
-  just like cout. The program comes from chapter 13 of "The C++
-  Standard Library" (Josuttis). 
-  
-  Also demonstrates the values of various types of variables when
-  instantiated.
-
-
-
+Also demonstrates the values of various types of variables when
+instantiated.
 _EnD_oF_dEf_TeXt_;
 }; /* file */
 file = {
@@ -2621,11 +2728,11 @@ file = {
     define = {
     define-member = {
       define-mem-kind = 'define';
-      define-mem-id   = 'threadDeath1_8cc_1a0';
+      define-mem-id   = 'threadDeath1_8cc_1a3a09af0c2383231ed7db842315ef2a2a';
       define-mem-virt = normal;
       define-mem-prot = public;
       define-mem-name = 'CHAR_EXAMPLE';
-      define-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
+      define-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
       define-mem-desc-line = '24';
       define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 make this a define to use the char * example
@@ -2638,7 +2745,7 @@ _EnD_oF_dEf_TeXt_;
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath1_8cc_1a1';
+      func-mem-id   = 'threadDeath1_8cc_1af92d3e66957399ac5688d528589cbd4e';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2651,41 +2758,40 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
-      func-mem-desc-line = '29';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
+      func-mem-desc-line = '28';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-user defined function
+user defined function to call
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\par Purpose:
+A user defined function. This function, for demonstration purposes,
+dynamically creates a string object that will be returned through a
+call to pthread_join() later on.
 
-   \par Purpose:
-   A user defined function. This function, for demonstration purposes,
-   dynamically creates a string object that will be returned through a
-   call to pthread_join() later on.
+\note This function SHOULD NOT call pthread_exit() as it is
+intended, in this case, to return to the wrapper function
+func(). Calling pthread_exit() from here will terminate the thread
+and will result in "undefined behavior".
 
-   \note This function SHOULD NOT call pthread_exit() as it is
-   intended, in this case, to return to the wrapper function
-   func(). Calling pthread_exit() from here will terminate the thread
-   and will result in "undefined behavior".
+\param arg is a string object pointer passed in as a void *
 
-   \param arg is a string object pointer passed in as a void *
-
-   \return a string object that is dynamically allocated
+\return a string object that is dynamically allocated
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a2';
+        func-mem-ref-id = 'threadDeath1_8cc_1a11e940f01812ae7923391e3d8619ed64';
         func-mem-ref-line = '69';
         func-mem-ref-name = 'func';
     };
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a3';
+        func-mem-ref-id = 'threadDeath1_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '81';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath1_8cc_1a2';
+      func-mem-id   = 'threadDeath1_8cc_1a11e940f01812ae7923391e3d8619ed64';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2698,8 +2804,8 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
-      func-mem-desc-line = '70';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
+      func-mem-desc-line = '69';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 a function that calls the user defined function
 _EnD_oF_dEf_TeXt_;
@@ -2707,19 +2813,19 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a0';
+        func-mem-ref-id = 'threadDeath1_8cc_1af92d3e66957399ac5688d528589cbd4e';
         func-mem-ref-line = '28';
         func-mem-ref-name = 'myfunc';
     };
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a3';
+        func-mem-ref-id = 'threadDeath1_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '81';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath1_8cc_1a3';
+      func-mem-id   = 'threadDeath1_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2739,8 +2845,8 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
         func-mem-param-array = '[]';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
-      func-mem-desc-line = '82';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
+      func-mem-desc-line = '81';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -2748,38 +2854,34 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a2';
+        func-mem-ref-id = 'threadDeath1_8cc_1a11e940f01812ae7923391e3d8619ed64';
         func-mem-ref-line = '69';
         func-mem-ref-name = 'func';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a1';
+        func-mem-ref-id = 'threadDeath1_8cc_1af92d3e66957399ac5688d528589cbd4e';
         func-mem-ref-line = '28';
         func-mem-ref-name = 'myfunc';
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath1.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 basic thread functionality
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
-
 \par Purpose:
-  Example program that creates a thread that uses a function that
-  calls a user defined function. Also demonstrates casing examples for
-  the pthread_join(void **) return type. Often the return type from
-  pthread_join() is confusing so we demonstrate a char* or a string*
-  depending on whether CHAR_EXAMPLE is defined within this file (see
-  below).
+Example program that creates a thread that uses a function that
+calls a user defined function. Also demonstrates casing examples for
+the pthread_join(void **) return type. Often the return type from
+pthread_join() is confusing so we demonstrate a char* or a string*
+depending on whether CHAR_EXAMPLE is defined within this file (see
+below).
 
-  The intention here is that we want to demonstrate passing pointers
-  around when creating threads and then accessing those pointers as we
-  go allong.
-
-
-
+The intention here is that we want to demonstrate passing pointers
+around when creating threads and then accessing those pointers as we
+go allong.
 _EnD_oF_dEf_TeXt_;
 }; /* file */
 file = {
@@ -2788,7 +2890,7 @@ file = {
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath2_8cc_1a0';
+      func-mem-id   = 'threadDeath2_8cc_1a0656382c4996f9dc2a4fc44cde84307e';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2801,41 +2903,35 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
       func-mem-desc-line = '24';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 user defined function
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\par Purpose:
+A user defined function. This function, for demonstration purposes,
+dynamically creates a string object that will be returned through a
+call to pthread_join() later on.
 
-   \par Purpose:
-   A user defined function. This function, for demonstration purposes,
-   dynamically creates a string object that will be returned through a
-   call to pthread_join() later on.
+\note This function SHOULD NOT call pthread_exit() as it is
+intended, in this case, to return to the wrapper function
+func(). Calling pthread_exit() from here will terminate the thread
+and will result in "undefined behavior".
 
-   \note This function SHOULD NOT call pthread_exit() as it is
-   intended, in this case, to return to the wrapper function
-   func(). Calling pthread_exit() from here will terminate the thread
-   and will result in "undefined behavior".
+\param arg is a string object pointer passed in as a void *
 
-   \param arg is a string object pointer passed in as a void *
-
-   \return a string object that is dynamically allocated
+\return a string object that is dynamically allocated
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a2';
-        func-mem-ref-line = '69';
-        func-mem-ref-name = 'func';
-    };
-      func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a3';
-        func-mem-ref-line = '81';
+        func-mem-ref-id = 'threadDeath2_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
+        func-mem-ref-line = '86';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath2_8cc_1a1';
+      func-mem-id   = 'threadDeath2_8cc_1a11e940f01812ae7923391e3d8619ed64';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2848,29 +2944,48 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
-      func-mem-desc-line = '55';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+      func-mem-desc-line = '54';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 A wrapper function for the user defined function.
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\par Purpose:
+This function wrapps the user defined function so that additional
+opperations may be performed on a thread once it is
+created. Unified signal handling or thread ID tracking can be
+performed from this function as well as pthread_cleanup_push()
+and pthread_cleanup_pop() operations.
 
-   \par Purpose:
-   This function wrapps the user defined function so that additional
-   opperations may be performed on a thread once it is
-   created. Unified signal handling or thread ID tracking can be
-   performed from this function as well as pthread_cleanup_push()
-   and pthread_cleanup_pop() operations.
+\return NOTHING calls pthread_exit() to be joined later.
 
-   \return NOTHING calls pthread_exit() to be joined later.
-
-   \param arg is a void pointer that is expected to point to a
-   func_params object.
+\param arg is a void pointer that is expected to point to a
+func_params object.
 _EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'threadDeath2_8cc_1a4237683007951fd79e48c8a4c1c097b3';
+        func-mem-ref-line = '35';
+        func-mem-ref-name = 'func_params::argument';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'threadDeath2_8cc_1ab3f6a6d5760ccebb3f84b56f1994ecf2';
+        func-mem-ref-line = '36';
+        func-mem-ref-name = 'func_params::other_info';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'threadDeath2_8cc_1a7612a751cc38ba9a38ada41d73b3673d';
+        func-mem-ref-line = '34';
+        func-mem-ref-name = 'func_params::user_func';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'threadDeath2_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
+        func-mem-ref-line = '86';
+        func-mem-ref-name = 'main';
+    };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath2_8cc_1a2';
+      func-mem-id   = 'threadDeath2_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2890,69 +3005,69 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
         func-mem-param-array = '[]';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
-      func-mem-desc-line = '87';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+      func-mem-desc-line = '86';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-  \par Purpose:
-  Demonstrate the use of a wrapper function to call a user defined
-  function from our wrapper function. A pointer to the user defined
-  function is passed to the wrapper function through a func_params
-  object. Casting is used to pass the func_params object through
-  pthread_create to the wrapper function.
-  <br>
-  <br>
-  The func_params object also contains a pointer to an argument that
-  will be passed on to the user defined function.
+\par Purpose:
+Demonstrate the use of a wrapper function to call a user defined
+function from our wrapper function. A pointer to the user defined
+function is passed to the wrapper function through a func_params
+object. Casting is used to pass the func_params object through
+pthread_create to the wrapper function.
+<br>
+<br>
+The func_params object also contains a pointer to an argument that
+will be passed on to the user defined function.
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath2_8cc_1o1';
+        func-mem-ref-id = 'threadDeath2_8cc_1a4237683007951fd79e48c8a4c1c097b3';
         func-mem-ref-line = '35';
         func-mem-ref-name = 'func_params::argument';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a2';
-        func-mem-ref-line = '69';
+        func-mem-ref-id = 'threadDeath2_8cc_1a11e940f01812ae7923391e3d8619ed64';
+        func-mem-ref-line = '54';
         func-mem-ref-name = 'func';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath1_8cc_1a1';
-        func-mem-ref-line = '28';
+        func-mem-ref-id = 'threadDeath2_8cc_1a0656382c4996f9dc2a4fc44cde84307e';
+        func-mem-ref-line = '149';
         func-mem-ref-name = 'myfunc';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath2_8cc_1o2';
+        func-mem-ref-id = 'threadDeath2_8cc_1ab3f6a6d5760ccebb3f84b56f1994ecf2';
         func-mem-ref-line = '36';
         func-mem-ref-name = 'func_params::other_info';
     };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'threadDeath2_8cc_1a7612a751cc38ba9a38ada41d73b3673d';
+        func-mem-ref-line = '34';
+        func-mem-ref-name = 'func_params::user_func';
+    };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath2.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 slightly complex pthread example
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
+ \par Purpose:
+ Additional Example program to threadDeath1.cc that creates a thread
+ that uses a function that calls a user defined function. Also
+ demonstrates casing examples for the pthread_join(void **) return
+ type. Often the return type from pthread_join() is confusing so we
+ demonstrate only a string * usage here.
 
-\par Purpose:
-  Additional Example program to threadDeath1.cc that creates a thread
-  that uses a function that calls a user defined function. Also
-  demonstrates casing examples for the pthread_join(void **) return
-  type. Often the return type from pthread_join() is confusing so we
-  demonstrate only a string * usage here.
+ This program is slightly more complicated than threadDeath1.cc
+ because we are passing around additional parameters.
 
-  This program is slightly more complicated than threadDeath1.cc
-  because we are passing around additional parameters.
-
-  The intention here is that we want to demonstrate passing pointers
-  around when creating threads and then accessing those pointers as we
-  go allong.
-
-
-
+ The intention here is that we want to demonstrate passing pointers
+ around when creating threads and then accessing those pointers as we
+ go allong.
 _EnD_oF_dEf_TeXt_;
 }; /* file */
 file = {
@@ -2961,7 +3076,7 @@ file = {
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath3_8cc_1a0';
+      func-mem-id   = 'threadDeath3_8cc_1a65caca2058eca9fc843329a064345891';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2980,33 +3095,33 @@ void **
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'return_value';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       func-mem-desc-line = '428';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 generic wait for string-centric threads
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+wait for a managed thread to return
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a2';
+        func-mem-ref-id = 'threadDeath3_8cc_1ab27dc1197d7c3955d1b7e2a529a0a40e';
         func-mem-ref-line = '140';
         func-mem-ref-name = 'ThreadMgr::condWait';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a4';
+        func-mem-ref-id = 'threadDeath3_8cc_1a85b1d99fa66ff17daea44b1defe43810';
         func-mem-ref-line = '241';
         func-mem-ref-name = 'ThreadMgr::threadsActive';
     };
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a6';
+        func-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '448';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath3_8cc_1a1';
+      func-mem-id   = 'threadDeath3_8cc_1a6acd336c45376f5773f8df2e35acc0a6';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3019,24 +3134,25 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       func-mem-desc-line = '431';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Example Thread function.
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Simply counts and returns.
 
 \return NULL is returned
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a6';
+        func-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '448';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath3_8cc_1a2';
+      func-mem-id   = 'threadDeath3_8cc_1a99402a8552cb8073ec91d6ccbe5b9f4b';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3049,25 +3165,24 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       func-mem-desc-line = '434';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Example Thread function.
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-   Simply counts and returns in less time than myfunc0
-   \return NULL is returned
+Simply counts and returns in less time than myfunc0
+\return NULL is returned
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a6';
+        func-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '448';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath3_8cc_1a3';
+      func-mem-id   = 'threadDeath3_8cc_1a42946e0c5c41e7ad70ed4bc7f4674591';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3080,30 +3195,29 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       func-mem-desc-line = '437';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Example Thread function.
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\par Purpose:
+Allocate some memory and add data to the memory area. Then wait for
+some amount of time (in a for loop) and return a pointer to the
+allocated memory.
 
-   \par Purpose:
-   Allocate some memory and add data to the memory area. Then wait for
-   some amount of time (in a for loop) and return a pointer to the
-   allocated memory.
-
-   \param a void *
-   \return a char * cast to a void *
+\param a void *
+\return a char * cast to a void *
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a6';
+        func-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '448';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath3_8cc_1a4';
+      func-mem-id   = 'threadDeath3_8cc_1ad622d547a367fc20f789b8551b326d50';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3116,31 +3230,30 @@ void *
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'arg';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       func-mem-desc-line = '440';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Example Thread function returning an object.
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\par Purpose:
+Print the parameter from main, allocate memory and populate the new
+memory with data, and return a pointer to the new memory area (of
+type string pointer cast to a void *).
 
-   \par Purpose:
-   Print the parameter from main, allocate memory and populate the new
-   memory with data, and return a pointer to the new memory area (of
-   type string pointer cast to a void *).
-   
-   \param arg a void pointer
+\param arg a void pointer
 
-   \return a string pointer cast to a void pointer
+\return a string pointer cast to a void pointer
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a6';
+        func-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '448';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath3_8cc_1a5';
+      func-mem-id   = 'threadDeath3_8cc_1aa250a4a7e0a6fb820b2f1095b2c4de21';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3159,49 +3272,48 @@ T
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'return_value';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
       func-mem-desc-line = '444';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Example template -waits for thread and prints object.
 _EnD_oF_dEf_TeXt_;
       func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\par Purpose:
+Example template that waits for a thread and prints out the string
+that is the return value from the condWait. This is here for
+example only and EXPECTS that the Type is something printable.
 
-   \par Purpose:
-   Example template that waits for a thread and prints out the string
-   that is the return value from the condWait. This is here for
-   example only and EXPECTS that the Type is something printable.
+\param mgr A ThreadMgr pointer
+\param return_value of type cast by calling function (see main for
+more details)
 
-   \param mgr A ThreadMgr pointer
-   \param return_value of type cast by calling function (see main for
-   more details)
+\return nothing
 
-   \return nothing
-
-   \note a call to this function: <br>
-   TwaitStringThreads(p_mgr, (string **)ret);<br>
-   Yields ret to be a (string **). When we want to send it to cout
-   then we must cast it bacwards to get the contents of the pointer
-   of the pointer (which is a string pointer in this case). Get it?
+\note a call to this function: <br>
+TwaitStringThreads(p_mgr, (string **)ret);<br>
+Yields ret to be a (string **). When we want to send it to cout
+then we must cast it bacwards to get the contents of the pointer
+of the pointer (which is a string pointer in this case). Get it?
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a2';
+        func-mem-ref-id = 'threadDeath3_8cc_1ab27dc1197d7c3955d1b7e2a529a0a40e';
         func-mem-ref-line = '140';
         func-mem-ref-name = 'ThreadMgr::condWait';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a4';
+        func-mem-ref-id = 'threadDeath3_8cc_1a85b1d99fa66ff17daea44b1defe43810';
         func-mem-ref-line = '241';
         func-mem-ref-name = 'ThreadMgr::threadsActive';
     };
       func-mem-referenceby = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a6';
+        func-mem-ref-id = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
         func-mem-ref-line = '448';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'threadDeath3_8cc_1a6';
+      func-mem-id   = 'threadDeath3_8cc_1a0ddf1224851353fc92bfbff6f499fa97';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3221,8 +3333,8 @@ _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
         func-mem-param-array = '[]';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
-      func-mem-desc-line = '449';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+      func-mem-desc-line = '448';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 the main function
 _EnD_oF_dEf_TeXt_;
@@ -3230,70 +3342,68 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a1';
+        func-mem-ref-id = 'threadDeath3_8cc_1ad731b9dbd261bc4665bad0b40a3db1eb';
         func-mem-ref-line = '100';
         func-mem-ref-name = 'ThreadMgr::cancel_thread';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a2';
+        func-mem-ref-id = 'threadDeath3_8cc_1ab27dc1197d7c3955d1b7e2a529a0a40e';
         func-mem-ref-line = '140';
         func-mem-ref-name = 'ThreadMgr::condWait';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a3';
+        func-mem-ref-id = 'threadDeath3_8cc_1aeed679cee8b5f8308486800e44110299';
         func-mem-ref-line = '181';
         func-mem-ref-name = 'ThreadMgr::createThread';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a1';
+        func-mem-ref-id = 'threadDeath3_8cc_1a6acd336c45376f5773f8df2e35acc0a6';
         func-mem-ref-line = '781';
         func-mem-ref-name = 'myfunc0';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a2';
+        func-mem-ref-id = 'threadDeath3_8cc_1a99402a8552cb8073ec91d6ccbe5b9f4b';
         func-mem-ref-line = '798';
         func-mem-ref-name = 'myfunc1';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a3';
+        func-mem-ref-id = 'threadDeath3_8cc_1a42946e0c5c41e7ad70ed4bc7f4674591';
         func-mem-ref-line = '819';
         func-mem-ref-name = 'myfunc2';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a4';
+        func-mem-ref-id = 'threadDeath3_8cc_1ad622d547a367fc20f789b8551b326d50';
         func-mem-ref-line = '758';
         func-mem-ref-name = 'myStringFunc';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a5';
+        func-mem-ref-id = 'threadDeath3_8cc_1a406fff78718eca2fdcd25d856b949ce7';
         func-mem-ref-line = '251';
         func-mem-ref-name = 'ThreadMgr::no_threads_terminated';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a4';
+        func-mem-ref-id = 'threadDeath3_8cc_1a85b1d99fa66ff17daea44b1defe43810';
         func-mem-ref-line = '241';
         func-mem-ref-name = 'ThreadMgr::threadsActive';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a5';
+        func-mem-ref-id = 'threadDeath3_8cc_1aa250a4a7e0a6fb820b2f1095b2c4de21';
         func-mem-ref-line = '723';
         func-mem-ref-name = 'TwaitStringThreads';
     };
       func-mem-referenceto = {
-        func-mem-ref-id = 'threadDeath3_8cc_1a0';
+        func-mem-ref-id = 'threadDeath3_8cc_1a65caca2058eca9fc843329a064345891';
         func-mem-ref-line = '656';
         func-mem-ref-name = 'waitStringThreads';
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/threadDeath/threadDeath3.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
-Thread Management Class (complex).
+Thread Management Class (complex)
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
-
-
 \par Purpose:
 Example class that manages threads and the detection of their
 exits (death) through the use of condition variables.
@@ -3312,9 +3422,6 @@ memory usage and slightly slower thread creation and destruction)
 the class offers a relatively easy to use interface to pthreads in
 general and may be enhanced for better type recognition (i.e. making
 it a template) and the like.
-
-
-
 _EnD_oF_dEf_TeXt_;
 }; /* file */
 file = {
@@ -3323,7 +3430,7 @@ file = {
     func = {
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'virtuals_8cc_1a0';
+      func-mem-id   = 'virtuals_8cc_1a41a2543fc8a369fc7411ca5525eee89f';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3336,8 +3443,8 @@ AbstractClass &
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'p';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
-      func-mem-desc-line = '47';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
+      func-mem-desc-line = '46';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 print something
 _EnD_oF_dEf_TeXt_;
@@ -3345,14 +3452,14 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceby = {
-        func-mem-ref-id = 'virtuals_8cc_1a1';
+        func-mem-ref-id = 'virtuals_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
         func-mem-ref-line = '54';
         func-mem-ref-name = 'main';
     };
     }; /* func-member */
     func-member = {
       func-mem-kind = 'function';
-      func-mem-id   = 'virtuals_8cc_1a1';
+      func-mem-id   = 'virtuals_8cc_1a3c04138a5bfe5d72780bb7e82a18e627';
       func-mem-virt = normal;
       func-mem-prot = public;
       func-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -3371,8 +3478,8 @@ char **
 _EnD_oF_dEf_TeXt_;
         func-mem-param-declname = 'argv';
       }; /*        func-mem-param--param */
-      func-mem-desc-file = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
-      func-mem-desc-line = '55';
+      func-mem-desc-file = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
+      func-mem-desc-line = '54';
       func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 demonstrate virtual functions and abstract classes
 _EnD_oF_dEf_TeXt_;
@@ -3380,19 +3487,18 @@ _EnD_oF_dEf_TeXt_;
 
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
-        func-mem-ref-id = 'virtuals_8cc_1a0';
+        func-mem-ref-id = 'virtuals_8cc_1a41a2543fc8a369fc7411ca5525eee89f';
         func-mem-ref-line = '46';
         func-mem-ref-name = 'callPrint';
     };
     }; /* func-member */
     };
-  file-full-name  = '/home/parasyte/myproject-0.0.1/src/virtual/virtuals.cc';
+  file-full-name  = '/home/karl/myproject-0.0.1/src/virtual/virtuals.cc';
   file-first-line = '1';
   file-briefdesc  = <<_EnD_oF_dEf_TeXt_
 basic virtual function / class usage
 _EnD_oF_dEf_TeXt_;
   file-documentation = <<_EnD_oF_dEf_TeXt_
-
 
 
 

@@ -1,0 +1,4 @@
+<map id="ThreadMgr::condWait" name="ThreadMgr::condWait">
+<area shape="rect" id="node2" href="$classThreadMgr.html#a406fff78718eca2fdcd25d856b949ce7" title="answers the question &quot;are there no theads terminated?&quot; " alt="" coords="222,5,378,47"/>
+<area shape="rect" id="node3" href="$classThreadMgr.html#ac38ddb1c78cbf5e366ec44850aeb8397" title="remove a terminated thread LIFO " alt="" coords="200,71,400,98"/>
+</map>

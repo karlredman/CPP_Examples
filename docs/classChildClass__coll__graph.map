@@ -1,0 +1,4 @@
+<map id="ChildClass" name="ChildClass">
+<area shape="rect" id="node2" href="$classBaseClass.html" title="class that inherits from AbstractClass " alt="" coords="15,131,101,208"/>
+<area shape="rect" id="node3" href="$classAbstractClass.html" title="A basic abstract Class (that is inherited from) " alt="" coords="5,5,111,83"/>
+</map>

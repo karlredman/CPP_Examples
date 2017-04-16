@@ -1,0 +1,6 @@
+<map id="TwaitStringThreads" name="TwaitStringThreads">
+<area shape="rect" id="node2" href="$classThreadMgr.html#ab27dc1197d7c3955d1b7e2a529a0a40e" title="wait on a condition variable for a thread to terminate " alt="" coords="201,42,347,69"/>
+<area shape="rect" id="node5" href="$classThreadMgr.html#a85b1d99fa66ff17daea44b1defe43810" title="return the number of active threads " alt="" coords="188,93,360,119"/>
+<area shape="rect" id="node3" href="$classThreadMgr.html#a406fff78718eca2fdcd25d856b949ce7" title="answers the question &quot;are there no theads terminated?&quot; " alt="" coords="430,5,586,47"/>
+<area shape="rect" id="node4" href="$classThreadMgr.html#ac38ddb1c78cbf5e366ec44850aeb8397" title="remove a terminated thread LIFO " alt="" coords="408,71,608,98"/>
+</map>
