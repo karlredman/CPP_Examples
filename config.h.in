@@ -1,6 +1,6 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
-/* GNU and SleepingStill copyright statement */
+/* GNU and Karl N Redman copyright statement */
 #undef COPYRIGHT
 
 /* Specify the printf type of function call used in debug.h */
@@ -60,7 +60,7 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #undef HAVE_UNISTD_H
 
-/* GNU and SleepingStill license statement */
+/* GNU and Karl N Redman license statement */
 #undef LICENSE
 
 /* Define to the sub-directory where libtool stores uninstalled libraries. */
