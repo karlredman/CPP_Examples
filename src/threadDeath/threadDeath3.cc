@@ -32,7 +32,7 @@ it a template) and the like.
 /** 
     \brief A basic thread management class
 
-    \author Karl N. Redman (parasyte@sleepingstill.com)
+    \author Karl N. Redman (karl.redman@gmail.com)
 
     \par Purpose:
     This is an example class intended to be used as a guidline for the

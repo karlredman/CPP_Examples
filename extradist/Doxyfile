@@ -5,7 +5,7 @@
 #---------------------------------------------------------------------------
 PROJECT_NAME           = "Various C++ Examples (including IPC)"
 PROJECT_NUMBER         = "Version: 0.0.1"
-OUTPUT_DIRECTORY       = /home/parasyte/myproject-0.0.1/docs/
+OUTPUT_DIRECTORY       = /home/karl/myproject-0.0.1/docs/
 OUTPUT_LANGUAGE        = English
 USE_WINDOWS_ENCODING   = NO
 BRIEF_MEMBER_DESC      = YES
@@ -62,7 +62,7 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = /home/parasyte/myproject-0.0.1/
+INPUT                  = /home/karl/myproject-0.0.1/
 FILE_PATTERNS          = *.h \
                          *.c \
                          *.cc \
@@ -71,7 +71,7 @@ RECURSIVE              = YES
 EXCLUDE                = 
 EXCLUDE_SYMLINKS       = NO
 EXCLUDE_PATTERNS       = 
-EXAMPLE_PATH           = /home/parasyte/myproject-0.0.1/
+EXAMPLE_PATH           = /home/karl/myproject-0.0.1/
 EXAMPLE_PATTERNS       = 
 EXAMPLE_RECURSIVE      = YES
 IMAGE_PATH             = 
@@ -98,7 +98,7 @@ IGNORE_PREFIX          =
 GENERATE_HTML          = YES
 HTML_OUTPUT            = html
 HTML_FILE_EXTENSION    = .html
-HTML_HEADER            = /home/parasyte/myproject-0.0.1/
+HTML_HEADER            = /home/karl/myproject-0.0.1/
 HTML_FOOTER            = 
 HTML_STYLESHEET        = 
 HTML_ALIGN_MEMBERS     = YES

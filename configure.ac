@@ -1,4 +1,4 @@
-AC_INIT(myCCexamples, 0.0.1, parasyte@sleepingstill.com)
+AC_INIT(myCCexamples, 0.0.1, karl.redman@gmail.com)
 #AC_INIT(src/)
 AM_INIT_AUTOMAKE(myCPPexamples, 0.0.1)
 AM_CONFIG_HEADER(config.h)
@@ -26,10 +26,10 @@ if [! test "x$enable_debug" != "xyes"]; then
 	CXXFLAGS="$CXXFLAGS -DDEBUG"
 fi
 #copyright statement
-COPYRIGHT='"COPYRIGHT 2004, Karl N. Redman (parasyte@sleepingstill.com)"'
-AC_DEFINE_UNQUOTED(COPYRIGHT,$COPYRIGHT, GNU and SleepingStill copyright statement)
+COPYRIGHT='"COPYRIGHT 2004, Karl N. Redman (karl.redman@gmail.com)"'
+AC_DEFINE_UNQUOTED(COPYRIGHT,$COPYRIGHT, GNU and Karl N Redman copyright statement)
 LICENSE='"This application comes with ABSOLUTELY NO WARRANTY; \nfor details see the licensing agreement distributed with this application"'
-AC_DEFINE_UNQUOTED(LICENSE,$LICENSE, GNU and SleepingStill license statement)
+AC_DEFINE_UNQUOTED(LICENSE,$LICENSE, GNU and Karl N Redman license statement)
 #
 #######################################
 #######################################
@@ -55,8 +55,8 @@ dnl *************************************************
 dnl gettext support
 dnl *************************************************
 
-COPYRIGHT='"COPYRIGHT 2004, Karl N. Redman (parasyte@sleepingstill.com)"'
-AC_DEFINE_UNQUOTED(COPYRIGHT,$COPYRIGHT, GNU and SleepingStill copyright statement)
+COPYRIGHT='"COPYRIGHT 2004, Karl N. Redman (karl.redman@gmail.com)"'
+AC_DEFINE_UNQUOTED(COPYRIGHT,$COPYRIGHT, GNU and Karl N Redman copyright statement)
 
 GETTEXT_PACKAGE="myCPPexamples"
 ##AC_SUBST(GETTEXT_PACKAGE)

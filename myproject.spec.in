@@ -24,10 +24,10 @@ Group: Applications/GUI
 Source: %{pkgname}-%{version}.tar.gz
 #Requires: # additional requirements
 Buildroot: /tmp/%{pkgname}-root
-URL: http://www.sleepingstill.com/projects
+URL: http://karlredman.github.com/CPP_Examples
 Prefix: %{prefix}
 BuildArchitectures: i386: i586: i686
-Packager: Karl N. Redman <parasyte@sleepingstill.com>
+Packager: Karl N. Redman <karlredman@gmail.com>
 
 %description
 GUI (gtk) GUI commandline program launcher
