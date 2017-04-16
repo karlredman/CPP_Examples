@@ -1,6 +1,5 @@
 var files =
 [
-    [ "config.h", "config_8h.html", "config_8h" ],
     [ "doxygen_msg.cc", "doxygen__msg_8cc.html", null ],
     [ "iteration.cc", "iteration_8cc.html", "iteration_8cc" ],
     [ "overload.cc", "overload_8cc.html", "overload_8cc" ],

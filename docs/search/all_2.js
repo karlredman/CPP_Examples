@@ -6,7 +6,5 @@ var searchData=
   ['char_5fexample',['CHAR_EXAMPLE',['../threadDeath1_8cc.html#a3a09af0c2383231ed7db842315ef2a2a',1,'threadDeath1.cc']]],
   ['childclass',['ChildClass',['../classChildClass.html',1,'']]],
   ['condwait',['condWait',['../classThreadMgr.html#ab27dc1197d7c3955d1b7e2a529a0a40e',1,'ThreadMgr']]],
-  ['config_2eh',['config.h',['../config_8h.html',1,'']]],
-  ['copyright',['COPYRIGHT',['../config_8h.html#a6247bc79b0a606bddbf5a90fc3a03194',1,'config.h']]],
   ['createthread',['createThread',['../classThreadMgr.html#aeed679cee8b5f8308486800e44110299',1,'ThreadMgr']]]
 ];

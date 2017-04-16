@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "Various C++ Examples (including IPC)", "index.html", [
+    [ "VARIOUS C++ EXAMPLES (INCLUDING IPC C++)", "md_README.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

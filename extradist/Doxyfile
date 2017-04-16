@@ -63,16 +63,18 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = /home/karl/myproject-0.0.1/
+INPUT                  = /home/karl/Documents/github/CPP_Examples/
 FILE_PATTERNS          = *.h \
                          *.c \
                          *.cc \
-                         *.hh
+                         *.hh \
+                         README.md
+#USE_MDFILE_AS_MAINPAGE = README.md
 RECURSIVE              = YES
 EXCLUDE                = 
 EXCLUDE_SYMLINKS       = NO
 EXCLUDE_PATTERNS       = 
-EXAMPLE_PATH           = /home/karl/myproject-0.0.1/
+EXAMPLE_PATH           = /home/karl/Documents/github/CPP_Examples/
 EXAMPLE_PATTERNS       = 
 EXAMPLE_RECURSIVE      = YES
 IMAGE_PATH             = 

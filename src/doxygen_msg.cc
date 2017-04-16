@@ -28,7 +28,7 @@
 * \htmlinclude maingraph.html
 *
 * <b>Here is the README file for this project:</b>
-* \verbinclude README
+* \htmlinclude README.html
 *
 * <b>Please note the License for this project:</b>
 * \verbinclude COPYING

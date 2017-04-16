@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['removeterminated',['removeTerminated',['../classThreadMgr.html#ac38ddb1c78cbf5e366ec44850aeb8397',1,'ThreadMgr']]]
+  ['various_20c_2b_2b_20examples_20_28including_20ipc_20c_2b_2b_29',['VARIOUS C++ EXAMPLES (INCLUDING IPC C++)',['../md_README.html',1,'']]],
+  ['virtuals_2ecc',['virtuals.cc',['../virtuals_8cc.html',1,'']]]
 ];
